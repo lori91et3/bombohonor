@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -3538,7 +3538,6 @@ per selezionare tutto usare SET SELECTTYPES ALL</description>
 <attribute name="PARTNO" value="BK-883-TR"/>
 </part>
 <part name="GND43" library="AlmaSUP" deviceset="GND" device=""/>
-<part name="+3V8" library="AlmaSUP" deviceset="+3V3" device=""/>
 <part name="CN1" library="AlmaCONN" deviceset="HEADER4X1" device="_2MM_SMD">
 <attribute name="PARTNO" value="2PH1-04-UA-SMT-B"/>
 </part>
@@ -3548,6 +3547,7 @@ per selezionare tutto usare SET SELECTTYPES ALL</description>
 <part name="+3V9" library="AlmaSUP" deviceset="+3V3" device=""/>
 <part name="R31" library="AlmaPASS" deviceset="R" device="0603" value="1k"/>
 <part name="GND39" library="AlmaSUP" deviceset="GND" device=""/>
+<part name="+3V8" library="AlmaSUP" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4004,9 +4004,6 @@ per selezionare tutto usare SET SELECTTYPES ALL</description>
 <instance part="GND43" gate="1" x="45.72" y="147.32" smashed="yes">
 <attribute name="VALUE" x="43.18" y="144.78" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V8" gate="G$1" x="45.72" y="165.1" smashed="yes">
-<attribute name="VALUE" x="38.1" y="165.1" size="1.778" layer="96"/>
-</instance>
 <instance part="CN1" gate="G$1" x="129.54" y="78.74" smashed="yes" rot="R180">
 <attribute name="NAME" x="132.08" y="88.9" size="1.9304" layer="95" rot="R180"/>
 <attribute name="PARTNO" x="129.54" y="78.74" size="1.778" layer="96" rot="R180" display="off"/>
@@ -4024,6 +4021,9 @@ per selezionare tutto usare SET SELECTTYPES ALL</description>
 </instance>
 <instance part="GND39" gate="1" x="60.96" y="109.22" smashed="yes">
 <attribute name="VALUE" x="58.42" y="106.68" size="1.778" layer="96"/>
+</instance>
+<instance part="+3V8" gate="G$1" x="48.26" y="165.1" smashed="yes">
+<attribute name="VALUE" x="40.64" y="165.1" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -4271,9 +4271,9 @@ per selezionare tutto usare SET SELECTTYPES ALL</description>
 <pinref part="R26" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="147.32" y1="129.54" x2="144.78" y2="129.54" width="0.1524" layer="91"/>
-<label x="147.32" y="129.54" size="1.27" layer="95" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="PA2"/>
+<wire x1="147.32" y1="134.62" x2="144.78" y2="134.62" width="0.1524" layer="91"/>
+<label x="147.32" y="134.62" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PA0"/>
 </segment>
 </net>
 <net name="LED2" class="0">
@@ -4308,9 +4308,9 @@ per selezionare tutto usare SET SELECTTYPES ALL</description>
 <pinref part="R27" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="147.32" y1="127" x2="144.78" y2="127" width="0.1524" layer="91"/>
-<label x="147.32" y="127" size="1.27" layer="95" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="PA3"/>
+<wire x1="147.32" y1="132.08" x2="144.78" y2="132.08" width="0.1524" layer="91"/>
+<label x="147.32" y="132.08" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PA1"/>
 </segment>
 </net>
 <net name="LED3" class="0">
@@ -4345,9 +4345,9 @@ per selezionare tutto usare SET SELECTTYPES ALL</description>
 <pinref part="R28" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="147.32" y1="124.46" x2="144.78" y2="124.46" width="0.1524" layer="91"/>
-<label x="147.32" y="124.46" size="1.27" layer="95" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="PA4"/>
+<wire x1="147.32" y1="129.54" x2="144.78" y2="129.54" width="0.1524" layer="91"/>
+<label x="147.32" y="129.54" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PA2"/>
 </segment>
 </net>
 <net name="LED4" class="0">
@@ -4382,9 +4382,9 @@ per selezionare tutto usare SET SELECTTYPES ALL</description>
 <pinref part="R29" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="147.32" y1="121.92" x2="144.78" y2="121.92" width="0.1524" layer="91"/>
-<label x="147.32" y="121.92" size="1.27" layer="95" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="PA5"/>
+<wire x1="147.32" y1="127" x2="144.78" y2="127" width="0.1524" layer="91"/>
+<label x="147.32" y="127" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PA3"/>
 </segment>
 </net>
 <net name="LED5" class="0">
@@ -4419,9 +4419,9 @@ per selezionare tutto usare SET SELECTTYPES ALL</description>
 <pinref part="R30" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="147.32" y1="119.38" x2="144.78" y2="119.38" width="0.1524" layer="91"/>
-<label x="147.32" y="119.38" size="1.27" layer="95" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="PA6"/>
+<wire x1="147.32" y1="124.46" x2="144.78" y2="124.46" width="0.1524" layer="91"/>
+<label x="147.32" y="124.46" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PA4"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -4675,15 +4675,15 @@ per selezionare tutto usare SET SELECTTYPES ALL</description>
 <pinref part="CN1" gate="G$1" pin="4"/>
 </segment>
 <segment>
-<pinref part="BATT1" gate="G$1" pin="V_BATT1"/>
-<pinref part="+3V8" gate="G$1" pin="+3V3"/>
-<wire x1="45.72" y1="162.56" x2="45.72" y2="160.02" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="+3V9" gate="G$1" pin="+3V3"/>
 <pinref part="CN2" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="129.54" x2="35.56" y2="127" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="127" x2="38.1" y2="127" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="+3V8" gate="G$1" pin="+3V3"/>
+<wire x1="48.26" y1="162.56" x2="48.26" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="BATT1" gate="G$1" pin="V_BATT2"/>
 </segment>
 </net>
 <net name="NRST" class="0">
@@ -4723,11 +4723,6 @@ per selezionare tutto usare SET SELECTTYPES ALL</description>
 </net>
 <net name="ON" class="0">
 <segment>
-<wire x1="147.32" y1="114.3" x2="144.78" y2="114.3" width="0.1524" layer="91"/>
-<label x="147.32" y="114.3" size="1.27" layer="95" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="PA9"/>
-</segment>
-<segment>
 <pinref part="R31" gate="G$1" pin="2"/>
 <pinref part="CN2" gate="G$1" pin="3"/>
 <wire x1="60.96" y1="124.46" x2="60.96" y2="127" width="0.1524" layer="91"/>
@@ -4735,6 +4730,11 @@ per selezionare tutto usare SET SELECTTYPES ALL</description>
 <wire x1="63.5" y1="127" x2="60.96" y2="127" width="0.1524" layer="91"/>
 <junction x="60.96" y="127"/>
 <label x="63.5" y="127" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="101.6" y1="121.92" x2="111.76" y2="121.92" width="0.1524" layer="91"/>
+<label x="101.6" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PF0/OSC_IN"/>
 </segment>
 </net>
 </nets>
