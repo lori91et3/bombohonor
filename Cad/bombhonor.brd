@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -26,13 +26,13 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -46,20 +46,20 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -4768,16 +4768,16 @@
 <library name="AlmaPASS">
 <description>Passive components: R, L, C, Crystals, Tranformers</description>
 <packages>
-<package name="1206[3216]">
-<smd name="1" x="-1.4" y="0" dx="1.8" dy="1.6" layer="1" rot="R90"/>
-<smd name="2" x="1.4" y="0" dx="1.8" dy="1.6" layer="1" rot="R90"/>
-<wire x1="-2.6" y1="1.3" x2="2.6" y2="1.3" width="0.1" layer="39"/>
-<wire x1="2.6" y1="1.3" x2="2.6" y2="-1.3" width="0.1" layer="39"/>
-<wire x1="2.6" y1="-1.3" x2="-2.6" y2="-1.3" width="0.1" layer="39"/>
-<wire x1="-2.6" y1="-1.3" x2="-2.6" y2="1.3" width="0.1" layer="39"/>
-<text x="-2.2" y="1.1" size="1" layer="25">&gt;NAME</text>
-<text x="-2.2" y="-2" size="1" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.7018" y1="-0.8509" x2="1.7018" y2="0.8491" layer="51"/>
+<package name="0805[2012]">
+<smd name="1" x="-0.95" y="0" dx="1.5" dy="1.3" layer="1" rot="R90"/>
+<smd name="2" x="0.95" y="0" dx="1.5" dy="1.3" layer="1" rot="R90"/>
+<text x="-1.65" y="0.85" size="1" layer="25">&gt;NAME</text>
+<text x="-1.65" y="-1.85" size="1" layer="27">&gt;VALUE</text>
+<wire x1="-2" y1="1.2" x2="2" y2="1.2" width="0.1" layer="39"/>
+<wire x1="2" y1="1.2" x2="2" y2="-1.2" width="0.1" layer="39"/>
+<wire x1="2" y1="-1.2" x2="-2" y2="-1.2" width="0.1" layer="39"/>
+<wire x1="-2" y1="-1.2" x2="-2" y2="1.2" width="0.1" layer="39"/>
+<rectangle x1="-1.0922" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
 </package>
 <package name="0603[1608]">
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1" rot="R180"/>
@@ -5238,148 +5238,184 @@ Your Multi-CB Team
 <attribute name="PARTNO" value="STM32F030F4P6TR" x="17" y="6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="14" y="1" size="1.016" layer="27" ratio="10"/>
 </element>
-<element name="C1" library="AlmaPASS" package="1206[3216]" value="10u" x="17.7" y="1.2" smashed="yes">
+<element name="C1" library="AlmaPASS" package="0805[2012]" value="10u" x="17.7" y="1.2" smashed="yes">
 <attribute name="NAME" x="16.3" y="1.8" size="1" layer="25"/>
+<attribute name="PARTNO" value="CL21A106KQCLRNC" x="17.7" y="1.2" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="16.3" y="-0.4" size="1" layer="27"/>
 </element>
 <element name="C2" library="AlmaPASS" package="0603[1608]" value="0.1u" x="17.4" y="-1.1" smashed="yes">
 <attribute name="NAME" x="16" y="-0.5" size="1" layer="25"/>
+<attribute name="PARTNO" value="CL10B104KB8NNNC" x="17.4" y="-1.1" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="16" y="-2.7" size="1" layer="27"/>
 </element>
 <element name="C3" library="AlmaPASS" package="0603[1608]" value="0.1u" x="11.6" y="6.1" smashed="yes" rot="R270">
 <attribute name="NAME" x="12.2" y="7.5" size="1" layer="25" rot="R270"/>
+<attribute name="PARTNO" value="CL10B104KB8NNNC" x="11.6" y="6.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="10" y="7.5" size="1" layer="27" rot="R270"/>
 </element>
-<element name="C4" library="AlmaPASS" package="1206[3216]" value="10u" x="17" y="11.1" smashed="yes" rot="R180">
-<attribute name="NAME" x="18.4" y="10.5" size="1" layer="25" rot="R180"/>
-<attribute name="VALUE" x="18.4" y="12.7" size="1" layer="27" rot="R180"/>
+<element name="C4" library="AlmaPASS" package="0805[2012]" value="10u" x="17" y="11" smashed="yes" rot="R180">
+<attribute name="NAME" x="18.4" y="10.4" size="1" layer="25" rot="R180"/>
+<attribute name="PARTNO" value="CL21A106KQCLRNC" x="17" y="11" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="18.4" y="12.6" size="1" layer="27" rot="R180"/>
 </element>
 <element name="C5" library="AlmaPASS" package="0603[1608]" value="0.1u" x="17" y="13.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="18.4" y="12.6" size="1" layer="25" rot="R180"/>
+<attribute name="PARTNO" value="CL10B104KB8NNNC" x="17" y="13.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="18.4" y="14.8" size="1" layer="27" rot="R180"/>
 </element>
 <element name="C6" library="AlmaPASS" package="0603[1608]" value="0.1u" x="21.8" y="5.8" smashed="yes" rot="R270">
 <attribute name="NAME" x="22.4" y="7.2" size="1" layer="25" rot="R270"/>
+<attribute name="PARTNO" value="CL10B104KB8NNNC" x="21.8" y="5.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="20.2" y="7.2" size="1" layer="27" rot="R270"/>
 </element>
 <element name="R1" library="AlmaPASS" package="0603[1608]" value="1k" x="0.1" y="21" smashed="yes">
 <attribute name="NAME" x="-1.3" y="21.6" size="1" layer="25"/>
+<attribute name="PARTNO" value="RMCF0603JT1K00" x="0.1" y="21" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-1.3" y="19.4" size="1" layer="27"/>
 </element>
 <element name="R2" library="AlmaPASS" package="0603[1608]" value="1k" x="-5.8" y="18.6" smashed="yes">
 <attribute name="NAME" x="-7.2" y="19.2" size="1" layer="25"/>
+<attribute name="PARTNO" value="RMCF0603JT1K00" x="-5.8" y="18.6" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-7.2" y="17" size="1" layer="27"/>
 </element>
 <element name="R3" library="AlmaPASS" package="0603[1608]" value="1k" x="-9.8" y="21.6" smashed="yes">
 <attribute name="NAME" x="-11.2" y="22.2" size="1" layer="25"/>
+<attribute name="PARTNO" value="RMCF0603JT1K00" x="-9.8" y="21.6" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-11.2" y="20" size="1" layer="27"/>
 </element>
 <element name="R4" library="AlmaPASS" package="0603[1608]" value="1k" x="-16.8" y="23.6" smashed="yes">
 <attribute name="NAME" x="-18.2" y="24.2" size="1" layer="25"/>
+<attribute name="PARTNO" value="RMCF0603JT1K00" x="-16.8" y="23.6" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-18.2" y="22" size="1" layer="27"/>
 </element>
 <element name="R5" library="AlmaPASS" package="0603[1608]" value="1k" x="-21.2" y="21.6" smashed="yes">
 <attribute name="NAME" x="-22.6" y="22.2" size="1" layer="25"/>
+<attribute name="PARTNO" value="RMCF0603JT1K00" x="-21.2" y="21.6" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-22.6" y="20" size="1" layer="27"/>
 </element>
 <element name="R6" library="AlmaPASS" package="0603[1608]" value="1k" x="-26.8" y="17.6" smashed="yes">
 <attribute name="NAME" x="-28.2" y="18.2" size="1" layer="25"/>
+<attribute name="PARTNO" value="RMCF0603JT1K00" x="-26.8" y="17.6" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-28.2" y="16" size="1" layer="27"/>
 </element>
 <element name="R7" library="AlmaPASS" package="0603[1608]" value="1k" x="-28.8" y="12.6" smashed="yes">
 <attribute name="NAME" x="-30.2" y="13.2" size="1" layer="25"/>
+<attribute name="PARTNO" value="RMCF0603JT1K00" x="-28.8" y="12.6" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-30.2" y="11" size="1" layer="27"/>
 </element>
 <element name="R8" library="AlmaPASS" package="0603[1608]" value="1k" x="-29.8" y="7.6" smashed="yes">
 <attribute name="NAME" x="-31.2" y="8.2" size="1" layer="25"/>
+<attribute name="PARTNO" value="RMCF0603JT1K00" x="-29.8" y="7.6" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-31.2" y="6" size="1" layer="27"/>
 </element>
 <element name="R9" library="AlmaPASS" package="0603[1608]" value="1k" x="-28.8" y="2.6" smashed="yes">
 <attribute name="NAME" x="-30.2" y="3.2" size="1" layer="25"/>
+<attribute name="PARTNO" value="RMCF0603JT1K00" x="-28.8" y="2.6" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-30.2" y="1" size="1" layer="27"/>
 </element>
 <element name="R10" library="AlmaPASS" package="0603[1608]" value="1k" x="-26.8" y="-2.4" smashed="yes">
 <attribute name="NAME" x="-28.2" y="-1.8" size="1" layer="25"/>
+<attribute name="PARTNO" value="RMCF0603JT1K00" x="-26.8" y="-2.4" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-28.2" y="-4" size="1" layer="27"/>
 </element>
 <element name="R11" library="AlmaPASS" package="0603[1608]" value="1k" x="-23.8" y="-7.4" smashed="yes">
 <attribute name="NAME" x="-25.2" y="-6.8" size="1" layer="25"/>
+<attribute name="PARTNO" value="RMCF0603JT1K00" x="-23.8" y="-7.4" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-25.2" y="-9" size="1" layer="27"/>
 </element>
 <element name="R12" library="AlmaPASS" package="0603[1608]" value="1k" x="-19.1" y="-12.4" smashed="yes">
 <attribute name="NAME" x="-20.5" y="-11.8" size="1" layer="25"/>
+<attribute name="PARTNO" value="RMCF0603JT1K00" x="-19.1" y="-12.4" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-20.5" y="-14" size="1" layer="27"/>
 </element>
 <element name="R13" library="AlmaPASS" package="0603[1608]" value="1k" x="-14.2" y="-17.4" smashed="yes">
 <attribute name="NAME" x="-15.6" y="-16.8" size="1" layer="25"/>
+<attribute name="PARTNO" value="RMCF0603JT1K00" x="-14.2" y="-17.4" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-15.6" y="-19" size="1" layer="27"/>
 </element>
 <element name="R14" library="AlmaPASS" package="0603[1608]" value="1k" x="-9.3" y="-22.3" smashed="yes">
 <attribute name="NAME" x="-10.7" y="-21.7" size="1" layer="25"/>
+<attribute name="PARTNO" value="RMCF0603JT1K00" x="-9.3" y="-22.3" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-10.7" y="-23.9" size="1" layer="27"/>
 </element>
 <element name="R15" library="AlmaPASS" package="0603[1608]" value="1k" x="-4.5" y="-26.3" smashed="yes">
 <attribute name="NAME" x="-5.9" y="-25.7" size="1" layer="25"/>
+<attribute name="PARTNO" value="RMCF0603JT1K00" x="-4.5" y="-26.3" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-5.9" y="-27.9" size="1" layer="27"/>
 </element>
 <element name="R16" library="AlmaPASS" package="0603[1608]" value="1k" x="0" y="-25.6" smashed="yes">
 <attribute name="NAME" x="-1.4" y="-25" size="1" layer="25"/>
+<attribute name="PARTNO" value="RMCF0603JT1K00" x="0" y="-25.6" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-1.4" y="-27.2" size="1" layer="27"/>
 </element>
 <element name="R17" library="AlmaPASS" package="0603[1608]" value="1k" x="5.5" y="-21.7" smashed="yes">
 <attribute name="NAME" x="4.1" y="-21.1" size="1" layer="25"/>
+<attribute name="PARTNO" value="RMCF0603JT1K00" x="5.5" y="-21.7" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="4.1" y="-23.3" size="1" layer="27"/>
 </element>
 <element name="R18" library="AlmaPASS" package="0603[1608]" value="1k" x="10.8" y="-17.6" smashed="yes">
 <attribute name="NAME" x="9.4" y="-17" size="1" layer="25"/>
+<attribute name="PARTNO" value="RMCF0603JT1K00" x="10.8" y="-17.6" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="9.4" y="-19.2" size="1" layer="27"/>
 </element>
 <element name="R19" library="AlmaPASS" package="0603[1608]" value="1k" x="14.5" y="-17.6" smashed="yes">
 <attribute name="NAME" x="13.1" y="-17" size="1" layer="25"/>
+<attribute name="PARTNO" value="RMCF0603JT1K00" x="14.5" y="-17.6" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="13.1" y="-19.2" size="1" layer="27"/>
 </element>
 <element name="R20" library="AlmaPASS" package="0603[1608]" value="1k" x="19.2" y="-7.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="20.6" y="-8.3" size="1" layer="25" rot="R180"/>
+<attribute name="PARTNO" value="RMCF0603JT1K00" x="19.2" y="-7.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="20.6" y="-6.1" size="1" layer="27" rot="R180"/>
 </element>
 <element name="R21" library="AlmaPASS" package="0603[1608]" value="1k" x="23.2" y="-2.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="24.6" y="-3.3" size="1" layer="25" rot="R180"/>
+<attribute name="PARTNO" value="RMCF0603JT1K00" x="23.2" y="-2.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="24.6" y="-1.1" size="1" layer="27" rot="R180"/>
 </element>
 <element name="R22" library="AlmaPASS" package="0603[1608]" value="1k" x="25.2" y="2.3" smashed="yes" rot="R180">
 <attribute name="NAME" x="26.6" y="1.7" size="1" layer="25" rot="R180"/>
+<attribute name="PARTNO" value="RMCF0603JT1K00" x="25.2" y="2.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="26.6" y="3.9" size="1" layer="27" rot="R180"/>
 </element>
 <element name="R23" library="AlmaPASS" package="0603[1608]" value="1k" x="27.2" y="7.3" smashed="yes" rot="R180">
 <attribute name="NAME" x="28.6" y="6.7" size="1" layer="25" rot="R180"/>
+<attribute name="PARTNO" value="RMCF0603JT1K00" x="27.2" y="7.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="28.6" y="8.9" size="1" layer="27" rot="R180"/>
 </element>
 <element name="R24" library="AlmaPASS" package="0603[1608]" value="1k" x="28.2" y="12.3" smashed="yes" rot="R180">
 <attribute name="NAME" x="29.6" y="11.7" size="1" layer="25" rot="R180"/>
+<attribute name="PARTNO" value="RMCF0603JT1K00" x="28.2" y="12.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="29.6" y="13.9" size="1" layer="27" rot="R180"/>
 </element>
 <element name="R25" library="AlmaPASS" package="0603[1608]" value="1k" x="27.2" y="17.3" smashed="yes" rot="R180">
 <attribute name="NAME" x="28.6" y="16.7" size="1" layer="25" rot="R180"/>
+<attribute name="PARTNO" value="RMCF0603JT1K00" x="27.2" y="17.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="28.6" y="18.9" size="1" layer="27" rot="R180"/>
 </element>
 <element name="R26" library="AlmaPASS" package="0603[1608]" value="1k" x="21.5" y="21.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="22.9" y="21.1" size="1" layer="25" rot="R180"/>
+<attribute name="PARTNO" value="RMCF0603JT1K00" x="21.5" y="21.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="22.9" y="23.3" size="1" layer="27" rot="R180"/>
 </element>
 <element name="R27" library="AlmaPASS" package="0603[1608]" value="1k" x="17.8" y="21.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="19.2" y="21.1" size="1" layer="25" rot="R180"/>
+<attribute name="PARTNO" value="RMCF0603JT1K00" x="17.8" y="21.7" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="19.2" y="23.3" size="1" layer="27" rot="R180"/>
 </element>
 <element name="R28" library="AlmaPASS" package="0603[1608]" value="1k" x="15.2" y="23.7" smashed="yes">
 <attribute name="NAME" x="13.8" y="24.3" size="1" layer="25"/>
+<attribute name="PARTNO" value="RMCF0603JT1K00" x="15.2" y="23.7" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="13.8" y="22.1" size="1" layer="27"/>
 </element>
 <element name="R29" library="AlmaPASS" package="0603[1608]" value="1k" x="9.8" y="21.7" smashed="yes">
 <attribute name="NAME" x="8.4" y="22.3" size="1" layer="25"/>
+<attribute name="PARTNO" value="RMCF0603JT1K00" x="9.8" y="21.7" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="8.4" y="20.1" size="1" layer="27"/>
 </element>
 <element name="R30" library="AlmaPASS" package="0603[1608]" value="1k" x="4.2" y="23.4" smashed="yes">
 <attribute name="NAME" x="2.8" y="24" size="1" layer="25"/>
+<attribute name="PARTNO" value="RMCF0603JT1K00" x="4.2" y="23.4" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="2.8" y="21.8" size="1" layer="27"/>
 </element>
 <element name="BATT1" library="AlmaBATT" package="BK-883-TR" value="BK-883-TR" x="0" y="-11" smashed="yes">
@@ -5395,6 +5431,7 @@ Your Multi-CB Team
 </element>
 <element name="R31" library="AlmaPASS" package="0603[1608]" value="1k" x="-16" y="12.1" smashed="yes">
 <attribute name="NAME" x="-17.4" y="12.7" size="1" layer="25"/>
+<attribute name="PARTNO" value="RMCF0603JT1K00" x="-16" y="12.1" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-17.4" y="10.5" size="1" layer="27"/>
 </element>
 </elements>
@@ -6139,21 +6176,18 @@ Your Multi-CB Team
 <wire x1="21.0607875" y1="6.325" x2="21.76789375" y2="6.61789375" width="0.3" layer="1" curve="45"/>
 <wire x1="21.76789375" y1="6.61789375" x2="21.775" y2="6.625" width="0.3" layer="1"/>
 <wire x1="21.775" y1="6.625" x2="21.8" y2="6.65" width="0.3" layer="1"/>
-<wire x1="16.55" y1="-1.1" x2="16.3" y2="-0.496446875" width="0.3" layer="1" curve="-45"/>
-<wire x1="16.3" y1="-0.496446875" x2="16.3" y2="0" width="0.3" layer="1"/>
-<wire x1="16.3" y1="0" x2="16.3" y2="1.2" width="0.3" layer="1"/>
-<wire x1="14.275" y1="0" x2="16.3" y2="0" width="0.3" layer="1"/>
+<wire x1="14.275" y1="0" x2="16.55" y2="0" width="0.3" layer="1"/>
 <contactref element="BATT1" pad="V+2"/>
 <wire x1="12.33" y1="-10.325" x2="16.25710625" y2="-6.39789375" width="0.3" layer="1"/>
 <wire x1="16.25710625" y1="-6.39789375" x2="16.55" y2="-5.6907875" width="0.3" layer="1" curve="45"/>
 <wire x1="16.55" y1="-5.6907875" x2="16.55" y2="-1.1" width="0.3" layer="1"/>
-<wire x1="18.4" y1="11.1" x2="19.561525" y2="11.1" width="0.3" layer="1"/>
-<wire x1="19.561525" y1="11.1" x2="20.99289375" y2="10.50710625" width="0.3" layer="1" curve="-45"/>
+<wire x1="17.95" y1="11" x2="19.802946875" y2="11" width="0.3" layer="1"/>
+<wire x1="19.802946875" y1="11" x2="20.99289375" y2="10.50710625" width="0.3" layer="1" curve="-45"/>
 <wire x1="21.48210625" y1="10.01789375" x2="21.775" y2="9.3107875" width="0.3" layer="1" curve="-45"/>
 <wire x1="21.775" y1="9.3107875" x2="21.775" y2="6.625" width="0.3" layer="1"/>
 <wire x1="20.99289375" y1="10.50710625" x2="21.48210625" y2="10.01789375" width="0.3" layer="1"/>
-<wire x1="18.4" y1="11.1" x2="17.930759375" y2="11.569240625" width="0.3" layer="1"/>
-<wire x1="17.930759375" y1="11.569240625" x2="17.85" y2="11.7642125" width="0.3" layer="1" curve="-45"/>
+<wire x1="17.95" y1="11" x2="17.926209375" y2="11.580228125" width="0.3" layer="1"/>
+<wire x1="17.926209375" y1="11.580228125" x2="17.85" y2="11.7642125" width="0.3" layer="1" curve="-45"/>
 <wire x1="17.85" y1="11.7642125" x2="17.85" y2="13.2" width="0.3" layer="1"/>
 <wire x1="-18.54" y1="13" x2="-18.54" y2="11.9542125" width="0.3" layer="1"/>
 <wire x1="-18.54" y1="11.9542125" x2="-18.24710625" y2="11.24710625" width="0.3" layer="1" curve="45"/>
@@ -6166,9 +6200,13 @@ Your Multi-CB Team
 <wire x1="-15.5857875" y1="9" x2="7.7857875" y2="9" width="0.3" layer="1"/>
 <wire x1="8.49289375" y1="8.70710625" x2="9.40710625" y2="7.79289375" width="0.3" layer="1"/>
 <wire x1="9.7" y1="7.0857875" x2="9.7" y2="-7.2807875" width="0.3" layer="1"/>
-<wire x1="14.2" y1="6.325" x2="16.3" y2="6.325" width="0.3" layer="1"/>
-<wire x1="16.3" y1="6.325" x2="19.8" y2="6.325" width="0.3" layer="1"/>
-<wire x1="16.3" y1="1.2" x2="16.3" y2="6.325" width="0.3" layer="1"/>
+<wire x1="14.2" y1="6.325" x2="16.5" y2="6.325" width="0.3" layer="1"/>
+<wire x1="16.5" y1="6.325" x2="19.8" y2="6.325" width="0.3" layer="1"/>
+<wire x1="16.55" y1="-1.1" x2="16.55" y2="0" width="0.3" layer="1"/>
+<wire x1="16.55" y1="0" x2="16.55" y2="1" width="0.3" layer="1"/>
+<wire x1="16.55" y1="1" x2="16.75" y2="1.2" width="0.3" layer="1"/>
+<wire x1="16.5" y1="6.325" x2="16.5" y2="1.45" width="0.3" layer="1"/>
+<wire x1="16.5" y1="1.45" x2="16.75" y2="1.2" width="0.3" layer="1"/>
 </signal>
 <signal name="NRST">
 <contactref element="U1" pad="4"/>
@@ -6303,8 +6341,6 @@ Your Multi-CB Team
 <approved hash="7,39,ed2a69976997ed2a"/>
 <approved hash="7,39,931c2f812f81931c"/>
 <approved hash="7,39,71c3cd4ecd4e71c3"/>
-<approved hash="7,39,ca0345844587ca00"/>
-<approved hash="7,39,b61131963191b616"/>
 <approved hash="7,39,d35354dc54ddd352"/>
 <approved hash="7,39,10e3ac7eac7e10e3"/>
 <approved hash="7,39,15d69b6b9b6b15d6"/>

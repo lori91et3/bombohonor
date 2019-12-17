@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,20 +53,20 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="58" name="b3D" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="58" name="b3D" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -196,7 +196,7 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
 <layer number="255" name="Accent" color="7" fill="1" visible="no" active="no"/>
 </layers>
-<schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
+<schematic xreflabel="%F%N/%S.%R%C" xrefpart="/%S.%C%R">
 <libraries>
 <library name="AlmaOPTO">
 <description>Leds, Led pipes and Optocouplers</description>
@@ -3351,6 +3351,7 @@ per selezionare tutto usare SET SELECTTYPES ALL</description>
 </library>
 </libraries>
 <attributes>
+<attribute name="DATABASE" value="D:\Alma Automotive s.r.l\Library - Eagle-LIB\database\almadb.txt"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -3452,42 +3453,114 @@ per selezionare tutto usare SET SELECTTYPES ALL</description>
 <part name="U1" library="AlmaIC" deviceset="STM32F030F4" device="">
 <attribute name="PARTNO" value="STM32F030F4P6TR"/>
 </part>
-<part name="C1" library="AlmaPASS" deviceset="C" device="1206" value="10u"/>
-<part name="C2" library="AlmaPASS" deviceset="C" device="0603" value="0.1u"/>
-<part name="C3" library="AlmaPASS" deviceset="C" device="0603" value="0.1u"/>
-<part name="C4" library="AlmaPASS" deviceset="C" device="1206" value="10u"/>
-<part name="C5" library="AlmaPASS" deviceset="C" device="0603" value="0.1u"/>
-<part name="C6" library="AlmaPASS" deviceset="C" device="0603" value="0.1u"/>
-<part name="R1" library="AlmaPASS" deviceset="R" device="0603" value="1k"/>
-<part name="R2" library="AlmaPASS" deviceset="R" device="0603" value="1k"/>
-<part name="R3" library="AlmaPASS" deviceset="R" device="0603" value="1k"/>
-<part name="R4" library="AlmaPASS" deviceset="R" device="0603" value="1k"/>
-<part name="R5" library="AlmaPASS" deviceset="R" device="0603" value="1k"/>
-<part name="R6" library="AlmaPASS" deviceset="R" device="0603" value="1k"/>
-<part name="R7" library="AlmaPASS" deviceset="R" device="0603" value="1k"/>
-<part name="R8" library="AlmaPASS" deviceset="R" device="0603" value="1k"/>
-<part name="R9" library="AlmaPASS" deviceset="R" device="0603" value="1k"/>
-<part name="R10" library="AlmaPASS" deviceset="R" device="0603" value="1k"/>
-<part name="R11" library="AlmaPASS" deviceset="R" device="0603" value="1k"/>
-<part name="R12" library="AlmaPASS" deviceset="R" device="0603" value="1k"/>
-<part name="R13" library="AlmaPASS" deviceset="R" device="0603" value="1k"/>
-<part name="R14" library="AlmaPASS" deviceset="R" device="0603" value="1k"/>
-<part name="R15" library="AlmaPASS" deviceset="R" device="0603" value="1k"/>
-<part name="R16" library="AlmaPASS" deviceset="R" device="0603" value="1k"/>
-<part name="R17" library="AlmaPASS" deviceset="R" device="0603" value="1k"/>
-<part name="R18" library="AlmaPASS" deviceset="R" device="0603" value="1k"/>
-<part name="R19" library="AlmaPASS" deviceset="R" device="0603" value="1k"/>
-<part name="R20" library="AlmaPASS" deviceset="R" device="0603" value="1k"/>
-<part name="R21" library="AlmaPASS" deviceset="R" device="0603" value="1k"/>
-<part name="R22" library="AlmaPASS" deviceset="R" device="0603" value="1k"/>
-<part name="R23" library="AlmaPASS" deviceset="R" device="0603" value="1k"/>
-<part name="R24" library="AlmaPASS" deviceset="R" device="0603" value="1k"/>
-<part name="R25" library="AlmaPASS" deviceset="R" device="0603" value="1k"/>
-<part name="R26" library="AlmaPASS" deviceset="R" device="0603" value="1k"/>
-<part name="R27" library="AlmaPASS" deviceset="R" device="0603" value="1k"/>
-<part name="R28" library="AlmaPASS" deviceset="R" device="0603" value="1k"/>
-<part name="R29" library="AlmaPASS" deviceset="R" device="0603" value="1k"/>
-<part name="R30" library="AlmaPASS" deviceset="R" device="0603" value="1k"/>
+<part name="C1" library="AlmaPASS" deviceset="C" device="0805" value="10u">
+<attribute name="PARTNO" value="CL21A106KQCLRNC"/>
+</part>
+<part name="C2" library="AlmaPASS" deviceset="C" device="0603" value="0.1u">
+<attribute name="PARTNO" value="CL10B104KB8NNNC"/>
+</part>
+<part name="C3" library="AlmaPASS" deviceset="C" device="0603" value="0.1u">
+<attribute name="PARTNO" value="CL10B104KB8NNNC"/>
+</part>
+<part name="C4" library="AlmaPASS" deviceset="C" device="0805" value="10u">
+<attribute name="PARTNO" value="CL21A106KQCLRNC"/>
+</part>
+<part name="C5" library="AlmaPASS" deviceset="C" device="0603" value="0.1u">
+<attribute name="PARTNO" value="CL10B104KB8NNNC"/>
+</part>
+<part name="C6" library="AlmaPASS" deviceset="C" device="0603" value="0.1u">
+<attribute name="PARTNO" value="CL10B104KB8NNNC"/>
+</part>
+<part name="R1" library="AlmaPASS" deviceset="R" device="0603" value="1k">
+<attribute name="PARTNO" value="RMCF0603JT1K00"/>
+</part>
+<part name="R2" library="AlmaPASS" deviceset="R" device="0603" value="1k">
+<attribute name="PARTNO" value="RMCF0603JT1K00"/>
+</part>
+<part name="R3" library="AlmaPASS" deviceset="R" device="0603" value="1k">
+<attribute name="PARTNO" value="RMCF0603JT1K00"/>
+</part>
+<part name="R4" library="AlmaPASS" deviceset="R" device="0603" value="1k">
+<attribute name="PARTNO" value="RMCF0603JT1K00"/>
+</part>
+<part name="R5" library="AlmaPASS" deviceset="R" device="0603" value="1k">
+<attribute name="PARTNO" value="RMCF0603JT1K00"/>
+</part>
+<part name="R6" library="AlmaPASS" deviceset="R" device="0603" value="1k">
+<attribute name="PARTNO" value="RMCF0603JT1K00"/>
+</part>
+<part name="R7" library="AlmaPASS" deviceset="R" device="0603" value="1k">
+<attribute name="PARTNO" value="RMCF0603JT1K00"/>
+</part>
+<part name="R8" library="AlmaPASS" deviceset="R" device="0603" value="1k">
+<attribute name="PARTNO" value="RMCF0603JT1K00"/>
+</part>
+<part name="R9" library="AlmaPASS" deviceset="R" device="0603" value="1k">
+<attribute name="PARTNO" value="RMCF0603JT1K00"/>
+</part>
+<part name="R10" library="AlmaPASS" deviceset="R" device="0603" value="1k">
+<attribute name="PARTNO" value="RMCF0603JT1K00"/>
+</part>
+<part name="R11" library="AlmaPASS" deviceset="R" device="0603" value="1k">
+<attribute name="PARTNO" value="RMCF0603JT1K00"/>
+</part>
+<part name="R12" library="AlmaPASS" deviceset="R" device="0603" value="1k">
+<attribute name="PARTNO" value="RMCF0603JT1K00"/>
+</part>
+<part name="R13" library="AlmaPASS" deviceset="R" device="0603" value="1k">
+<attribute name="PARTNO" value="RMCF0603JT1K00"/>
+</part>
+<part name="R14" library="AlmaPASS" deviceset="R" device="0603" value="1k">
+<attribute name="PARTNO" value="RMCF0603JT1K00"/>
+</part>
+<part name="R15" library="AlmaPASS" deviceset="R" device="0603" value="1k">
+<attribute name="PARTNO" value="RMCF0603JT1K00"/>
+</part>
+<part name="R16" library="AlmaPASS" deviceset="R" device="0603" value="1k">
+<attribute name="PARTNO" value="RMCF0603JT1K00"/>
+</part>
+<part name="R17" library="AlmaPASS" deviceset="R" device="0603" value="1k">
+<attribute name="PARTNO" value="RMCF0603JT1K00"/>
+</part>
+<part name="R18" library="AlmaPASS" deviceset="R" device="0603" value="1k">
+<attribute name="PARTNO" value="RMCF0603JT1K00"/>
+</part>
+<part name="R19" library="AlmaPASS" deviceset="R" device="0603" value="1k">
+<attribute name="PARTNO" value="RMCF0603JT1K00"/>
+</part>
+<part name="R20" library="AlmaPASS" deviceset="R" device="0603" value="1k">
+<attribute name="PARTNO" value="RMCF0603JT1K00"/>
+</part>
+<part name="R21" library="AlmaPASS" deviceset="R" device="0603" value="1k">
+<attribute name="PARTNO" value="RMCF0603JT1K00"/>
+</part>
+<part name="R22" library="AlmaPASS" deviceset="R" device="0603" value="1k">
+<attribute name="PARTNO" value="RMCF0603JT1K00"/>
+</part>
+<part name="R23" library="AlmaPASS" deviceset="R" device="0603" value="1k">
+<attribute name="PARTNO" value="RMCF0603JT1K00"/>
+</part>
+<part name="R24" library="AlmaPASS" deviceset="R" device="0603" value="1k">
+<attribute name="PARTNO" value="RMCF0603JT1K00"/>
+</part>
+<part name="R25" library="AlmaPASS" deviceset="R" device="0603" value="1k">
+<attribute name="PARTNO" value="RMCF0603JT1K00"/>
+</part>
+<part name="R26" library="AlmaPASS" deviceset="R" device="0603" value="1k">
+<attribute name="PARTNO" value="RMCF0603JT1K00"/>
+</part>
+<part name="R27" library="AlmaPASS" deviceset="R" device="0603" value="1k">
+<attribute name="PARTNO" value="RMCF0603JT1K00"/>
+</part>
+<part name="R28" library="AlmaPASS" deviceset="R" device="0603" value="1k">
+<attribute name="PARTNO" value="RMCF0603JT1K00"/>
+</part>
+<part name="R29" library="AlmaPASS" deviceset="R" device="0603" value="1k">
+<attribute name="PARTNO" value="RMCF0603JT1K00"/>
+</part>
+<part name="R30" library="AlmaPASS" deviceset="R" device="0603" value="1k">
+<attribute name="PARTNO" value="RMCF0603JT1K00"/>
+</part>
 <part name="+3V1" library="AlmaSUP" deviceset="+3V3" device=""/>
 <part name="GND1" library="AlmaSUP" deviceset="GND" device=""/>
 <part name="GND2" library="AlmaSUP" deviceset="GND" device=""/>
@@ -3545,7 +3618,9 @@ per selezionare tutto usare SET SELECTTYPES ALL</description>
 <attribute name="PARTNO" value="TR1-01"/>
 </part>
 <part name="+3V9" library="AlmaSUP" deviceset="+3V3" device=""/>
-<part name="R31" library="AlmaPASS" deviceset="R" device="0603" value="1k"/>
+<part name="R31" library="AlmaPASS" deviceset="R" device="0603" value="1k">
+<attribute name="PARTNO" value="RMCF0603JT1K00"/>
+</part>
 <part name="GND39" library="AlmaSUP" deviceset="GND" device=""/>
 <part name="+3V8" library="AlmaSUP" deviceset="+3V3" device=""/>
 </parts>
@@ -3715,146 +3790,182 @@ per selezionare tutto usare SET SELECTTYPES ALL</description>
 <instance part="C1" gate="G$1" x="104.14" y="157.48" smashed="yes">
 <attribute name="NAME" x="106.68" y="154.94" size="1.778" layer="95"/>
 <attribute name="VALUE" x="106.68" y="152.4" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="104.14" y="157.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C2" gate="G$1" x="114.3" y="157.48" smashed="yes">
 <attribute name="NAME" x="116.84" y="154.94" size="1.778" layer="95"/>
 <attribute name="VALUE" x="116.84" y="152.4" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="114.3" y="157.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C3" gate="G$1" x="106.68" y="121.92" smashed="yes">
 <attribute name="NAME" x="109.22" y="119.38" size="1.778" layer="95"/>
 <attribute name="VALUE" x="109.22" y="116.84" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="106.68" y="121.92" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C4" gate="G$1" x="124.46" y="157.48" smashed="yes">
 <attribute name="NAME" x="127" y="154.94" size="1.778" layer="95"/>
 <attribute name="VALUE" x="127" y="152.4" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="124.46" y="157.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C5" gate="G$1" x="134.62" y="157.48" smashed="yes">
 <attribute name="NAME" x="137.16" y="154.94" size="1.778" layer="95"/>
 <attribute name="VALUE" x="137.16" y="152.4" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="134.62" y="157.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C6" gate="G$1" x="144.78" y="157.48" smashed="yes">
 <attribute name="NAME" x="147.32" y="154.94" size="1.778" layer="95"/>
 <attribute name="VALUE" x="147.32" y="152.4" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="144.78" y="157.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R1" gate="G$1" x="177.8" y="167.64" smashed="yes">
 <attribute name="NAME" x="175.26" y="172.72" size="1.778" layer="95"/>
 <attribute name="VALUE" x="175.26" y="170.18" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="177.8" y="167.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R2" gate="G$1" x="177.8" y="160.02" smashed="yes">
 <attribute name="NAME" x="175.26" y="165.1" size="1.778" layer="95"/>
 <attribute name="VALUE" x="175.26" y="162.56" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="177.8" y="160.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R3" gate="G$1" x="177.8" y="152.4" smashed="yes">
 <attribute name="NAME" x="175.26" y="157.48" size="1.778" layer="95"/>
 <attribute name="VALUE" x="175.26" y="154.94" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="177.8" y="152.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R4" gate="G$1" x="177.8" y="144.78" smashed="yes">
 <attribute name="NAME" x="175.26" y="149.86" size="1.778" layer="95"/>
 <attribute name="VALUE" x="175.26" y="147.32" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="177.8" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R5" gate="G$1" x="177.8" y="137.16" smashed="yes">
 <attribute name="NAME" x="175.26" y="142.24" size="1.778" layer="95"/>
 <attribute name="VALUE" x="175.26" y="139.7" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="177.8" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R6" gate="G$1" x="177.8" y="129.54" smashed="yes">
 <attribute name="NAME" x="175.26" y="134.62" size="1.778" layer="95"/>
 <attribute name="VALUE" x="175.26" y="132.08" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="177.8" y="129.54" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R7" gate="G$1" x="177.8" y="121.92" smashed="yes">
 <attribute name="NAME" x="175.26" y="127" size="1.778" layer="95"/>
 <attribute name="VALUE" x="175.26" y="124.46" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="177.8" y="121.92" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R8" gate="G$1" x="177.8" y="114.3" smashed="yes">
 <attribute name="NAME" x="175.26" y="119.38" size="1.778" layer="95"/>
 <attribute name="VALUE" x="175.26" y="116.84" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="177.8" y="114.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R9" gate="G$1" x="177.8" y="106.68" smashed="yes">
 <attribute name="NAME" x="175.26" y="111.76" size="1.778" layer="95"/>
 <attribute name="VALUE" x="175.26" y="109.22" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="177.8" y="106.68" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R10" gate="G$1" x="177.8" y="99.06" smashed="yes">
 <attribute name="NAME" x="175.26" y="104.14" size="1.778" layer="95"/>
 <attribute name="VALUE" x="175.26" y="101.6" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="177.8" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R11" gate="G$1" x="177.8" y="91.44" smashed="yes">
 <attribute name="NAME" x="175.26" y="96.52" size="1.778" layer="95"/>
 <attribute name="VALUE" x="175.26" y="93.98" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="177.8" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R12" gate="G$1" x="177.8" y="83.82" smashed="yes">
 <attribute name="NAME" x="175.26" y="88.9" size="1.778" layer="95"/>
 <attribute name="VALUE" x="175.26" y="86.36" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="177.8" y="83.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R13" gate="G$1" x="177.8" y="76.2" smashed="yes">
 <attribute name="NAME" x="175.26" y="81.28" size="1.778" layer="95"/>
 <attribute name="VALUE" x="175.26" y="78.74" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="177.8" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R14" gate="G$1" x="177.8" y="68.58" smashed="yes">
 <attribute name="NAME" x="175.26" y="73.66" size="1.778" layer="95"/>
 <attribute name="VALUE" x="175.26" y="71.12" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="177.8" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R15" gate="G$1" x="177.8" y="60.96" smashed="yes">
 <attribute name="NAME" x="175.26" y="66.04" size="1.778" layer="95"/>
 <attribute name="VALUE" x="175.26" y="63.5" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="177.8" y="60.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R16" gate="G$1" x="226.06" y="167.64" smashed="yes">
 <attribute name="NAME" x="223.52" y="172.72" size="1.778" layer="95"/>
 <attribute name="VALUE" x="223.52" y="170.18" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="226.06" y="167.64" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R17" gate="G$1" x="226.06" y="160.02" smashed="yes">
 <attribute name="NAME" x="223.52" y="165.1" size="1.778" layer="95"/>
 <attribute name="VALUE" x="223.52" y="162.56" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="226.06" y="160.02" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R18" gate="G$1" x="226.06" y="152.4" smashed="yes">
 <attribute name="NAME" x="223.52" y="157.48" size="1.778" layer="95"/>
 <attribute name="VALUE" x="223.52" y="154.94" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="226.06" y="152.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R19" gate="G$1" x="226.06" y="144.78" smashed="yes">
 <attribute name="NAME" x="223.52" y="149.86" size="1.778" layer="95"/>
 <attribute name="VALUE" x="223.52" y="147.32" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="226.06" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R20" gate="G$1" x="226.06" y="137.16" smashed="yes">
 <attribute name="NAME" x="223.52" y="142.24" size="1.778" layer="95"/>
 <attribute name="VALUE" x="223.52" y="139.7" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="226.06" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R21" gate="G$1" x="226.06" y="129.54" smashed="yes">
 <attribute name="NAME" x="223.52" y="134.62" size="1.778" layer="95"/>
 <attribute name="VALUE" x="223.52" y="132.08" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="226.06" y="129.54" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R22" gate="G$1" x="226.06" y="121.92" smashed="yes">
 <attribute name="NAME" x="223.52" y="127" size="1.778" layer="95"/>
 <attribute name="VALUE" x="223.52" y="124.46" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="226.06" y="121.92" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R23" gate="G$1" x="226.06" y="114.3" smashed="yes">
 <attribute name="NAME" x="223.52" y="119.38" size="1.778" layer="95"/>
 <attribute name="VALUE" x="223.52" y="116.84" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="226.06" y="114.3" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R24" gate="G$1" x="226.06" y="106.68" smashed="yes">
 <attribute name="NAME" x="223.52" y="111.76" size="1.778" layer="95"/>
 <attribute name="VALUE" x="223.52" y="109.22" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="226.06" y="106.68" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R25" gate="G$1" x="226.06" y="99.06" smashed="yes">
 <attribute name="NAME" x="223.52" y="104.14" size="1.778" layer="95"/>
 <attribute name="VALUE" x="223.52" y="101.6" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="226.06" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R26" gate="G$1" x="226.06" y="91.44" smashed="yes">
 <attribute name="NAME" x="223.52" y="96.52" size="1.778" layer="95"/>
 <attribute name="VALUE" x="223.52" y="93.98" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="226.06" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R27" gate="G$1" x="226.06" y="83.82" smashed="yes">
 <attribute name="NAME" x="223.52" y="88.9" size="1.778" layer="95"/>
 <attribute name="VALUE" x="223.52" y="86.36" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="226.06" y="83.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R28" gate="G$1" x="226.06" y="76.2" smashed="yes">
 <attribute name="NAME" x="223.52" y="81.28" size="1.778" layer="95"/>
 <attribute name="VALUE" x="223.52" y="78.74" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="226.06" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R29" gate="G$1" x="226.06" y="68.58" smashed="yes">
 <attribute name="NAME" x="223.52" y="73.66" size="1.778" layer="95"/>
 <attribute name="VALUE" x="223.52" y="71.12" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="226.06" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R30" gate="G$1" x="226.06" y="60.96" smashed="yes">
 <attribute name="NAME" x="223.52" y="66.04" size="1.778" layer="95"/>
 <attribute name="VALUE" x="223.52" y="63.5" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="226.06" y="60.96" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V1" gate="G$1" x="104.14" y="165.1" smashed="yes">
 <attribute name="VALUE" x="96.52" y="165.1" size="1.778" layer="96"/>
@@ -4018,6 +4129,7 @@ per selezionare tutto usare SET SELECTTYPES ALL</description>
 <instance part="R31" gate="G$1" x="60.96" y="119.38" smashed="yes" rot="R270">
 <attribute name="NAME" x="66.04" y="121.92" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="63.5" y="121.92" size="1.778" layer="96" rot="R270"/>
+<attribute name="PARTNO" x="60.96" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND39" gate="1" x="60.96" y="109.22" smashed="yes">
 <attribute name="VALUE" x="58.42" y="106.68" size="1.778" layer="96"/>
