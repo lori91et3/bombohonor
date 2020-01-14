@@ -3630,6 +3630,9 @@ per selezionare tutto usare SET SELECTTYPES ALL</description>
 <plain>
 <text x="132.08" y="137.16" size="1.778" layer="97">STM32L011F4P6</text>
 <text x="114.3" y="83.82" size="1.778" layer="97">mettere standard di nuzzo</text>
+<text x="40.64" y="96.52" size="1.778" layer="97">ESE-22MV21T 
+STM32L011F4P6
+Standard Di nuzzo</text>
 </plain>
 <instances>
 <instance part="LED1" gate="G$1" x="187.96" y="167.64" smashed="yes">
@@ -4854,4 +4857,10 @@ per selezionare tutto usare SET SELECTTYPES ALL</description>
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
