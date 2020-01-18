@@ -762,64 +762,104 @@
 <library name="AlmaCONN">
 <description>&lt;b&gt;Connectors&lt;/b&gt;</description>
 <packages>
-<package name="HEADER4X1_2.54MM">
-<pad name="1" x="-3.81" y="0" drill="0.9" diameter="1.8"/>
-<pad name="2" x="-1.27" y="0" drill="0.9" diameter="1.8"/>
-<pad name="3" x="1.27" y="0" drill="0.9" diameter="1.8"/>
-<pad name="4" x="3.81" y="0" drill="0.9" diameter="1.8"/>
-<text x="-4.73" y="1" size="1.27" layer="25">&gt;NAME</text>
-<text x="-4.73" y="-2.5" size="1.27" layer="27">&gt;VALUE</text>
+<package name="TP-1MM">
+<wire x1="-0.635" y1="0" x2="0.635" y2="0" width="0.0024" layer="37"/>
+<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.0024" layer="37"/>
+<smd name="TP" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+<text x="-0.635" y="1.016" size="1" layer="25" ratio="10">&gt;NAME</text>
 </package>
-<package name="HEADER4X1_2MM_SMD">
-<text x="-4" y="5" size="1.27" layer="25">&gt;NAME</text>
-<text x="-4" y="3" size="1.27" layer="27">&gt;VALUE</text>
-<smd name="1" x="-3" y="1.175" dx="0.85" dy="2.35" layer="1"/>
-<smd name="3" x="1" y="1.175" dx="0.85" dy="2.35" layer="1"/>
-<smd name="2" x="-1" y="-1.175" dx="0.85" dy="2.35" layer="1"/>
-<smd name="4" x="3" y="-1.175" dx="0.85" dy="2.35" layer="1"/>
-<wire x1="-4" y1="1" x2="4" y2="1" width="0.2" layer="21"/>
-<wire x1="4" y1="1" x2="4" y2="-1" width="0.2" layer="21"/>
-<wire x1="4" y1="-1" x2="-4" y2="-1" width="0.2" layer="21"/>
-<wire x1="-4" y1="-1" x2="-4" y2="1" width="0.2" layer="21"/>
+<package name="TP-2MM">
+<wire x1="-0.635" y1="0" x2="0.635" y2="0" width="0.0024" layer="37"/>
+<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.0024" layer="37"/>
+<smd name="TP" x="0" y="0" dx="2" dy="2" layer="1" roundness="100" cream="no"/>
+<circle x="0" y="0" radius="2" width="0.02" layer="39"/>
+</package>
+<package name="TP-1.5X0.75MM">
+<smd name="1" x="0" y="0" dx="1.5" dy="0.75" layer="1"/>
+</package>
+<package name="TP-HOLE-1.3MM">
+<pad name="1" x="0" y="0" drill="1.3" diameter="2.2"/>
+</package>
+<package name="TP-HOLE-2MM">
+<pad name="1" x="0" y="0" drill="2" diameter="2.1"/>
+</package>
+<package name="TP_HOLE-1.3MM_2">
+<pad name="1" x="0" y="0" drill="1.3" diameter="2.3"/>
+</package>
+<package name="TP-HOLE-1.5MM">
+<pad name="1" x="0" y="0" drill="1.5" diameter="2.5"/>
 </package>
 </packages>
 <symbols>
-<symbol name="HEADER4X1">
-<pin name="4" x="5.08" y="-5.08" visible="pin" length="short" swaplevel="1" rot="R180"/>
-<pin name="3" x="5.08" y="-2.54" visible="pin" length="short" swaplevel="1" rot="R180"/>
-<pin name="2" x="5.08" y="0" visible="pin" length="short" swaplevel="1" rot="R180"/>
-<pin name="1" x="5.08" y="2.54" visible="pin" length="short" swaplevel="1" rot="R180"/>
-<wire x1="2.54" y1="5.08" x2="2.54" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
-<text x="-2.54" y="7.62" size="1.9304" layer="95">&gt;NAME</text>
-<text x="-2.54" y="5.08" size="1.9304" layer="96">&gt;VALUE</text>
+<symbol name="TESTPAD">
+<pin name="P$1" x="0" y="0" visible="off" length="point" rot="R90"/>
+<wire x1="0" y1="1.27" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="0" y2="3.81" width="0.254" layer="94"/>
+<wire x1="0" y1="3.81" x2="1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="0" y2="1.27" width="0.254" layer="94"/>
+<text x="-2.54" y="3.81" size="1.27" layer="95">&gt;NAME</text>
+<wire x1="0" y1="1.27" x2="0" y2="0" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="HEADER4X1" prefix="CN">
+<deviceset name="TESTPAD" prefix="TP">
 <gates>
-<gate name="G$1" symbol="HEADER4X1" x="5.08" y="-5.08"/>
+<gate name="G$1" symbol="TESTPAD" x="0" y="0"/>
 </gates>
 <devices>
-<device name="_2.54MM" package="HEADER4X1_2.54MM">
+<device name="1MM" package="TP-1MM">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="P$1" pad="TP"/>
 </connects>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="_2MM_SMD" package="HEADER4X1_2MM_SMD">
+<device name="2MM" package="TP-2MM">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="P$1" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DNP" value="T" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1.5X0.75MM" package="TP-1.5X0.75MM">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="HOLE-1.3MM" package="TP-HOLE-1.3MM">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="HOLE-2MM" package="TP-HOLE-2MM">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="HOLE-1.3MM_2" package="TP_HOLE-1.3MM_2">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="HOLE-1.5MM" package="TP-HOLE-1.5MM">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3450,7 +3490,7 @@ per selezionare tutto usare SET SELECTTYPES ALL</description>
 <part name="LED30" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="RED">
 <attribute name="PARTNO" value="LTST-C230KRKT"/>
 </part>
-<part name="U1" library="AlmaIC" deviceset="STM32F030F4" device="">
+<part name="U1" library="AlmaIC" deviceset="STM32F030F4" device="" value="STM32L011F4P6">
 <attribute name="PARTNO" value="STM32L011F4P6"/>
 </part>
 <part name="C1" library="AlmaPASS" deviceset="C" device="0805" value="10u">
@@ -3604,16 +3644,11 @@ per selezionare tutto usare SET SELECTTYPES ALL</description>
 <part name="GND35" library="AlmaSUP" deviceset="GND" device=""/>
 <part name="GND36" library="AlmaSUP" deviceset="GND" device=""/>
 <part name="GND37" library="AlmaSUP" deviceset="GND" device=""/>
-<part name="+3V7" library="AlmaSUP" deviceset="+3V3" device=""/>
-<part name="GND38" library="AlmaSUP" deviceset="GND" device=""/>
 <part name="3" library="AlmaFRAME" deviceset="FRAME_A4" device=""/>
 <part name="BATT1" library="AlmaBATT" deviceset="BK-883-TR" device="">
 <attribute name="PARTNO" value="BK-883-TR"/>
 </part>
 <part name="GND43" library="AlmaSUP" deviceset="GND" device=""/>
-<part name="CN1" library="AlmaCONN" deviceset="HEADER4X1" device="_2MM_SMD">
-<attribute name="PARTNO" value="2PH1-04-UA-SMT-B"/>
-</part>
 <part name="CN2" library="cesso" deviceset="TR1-01" device="">
 <attribute name="PARTNO" value="TR1-01"/>
 </part>
@@ -3623,21 +3658,17 @@ per selezionare tutto usare SET SELECTTYPES ALL</description>
 </part>
 <part name="GND39" library="AlmaSUP" deviceset="GND" device=""/>
 <part name="+3V8" library="AlmaSUP" deviceset="+3V3" device=""/>
+<part name="TP1" library="AlmaCONN" deviceset="TESTPAD" device="2MM"/>
+<part name="TP2" library="AlmaCONN" deviceset="TESTPAD" device="2MM"/>
+<part name="TP3" library="AlmaCONN" deviceset="TESTPAD" device="2MM"/>
+<part name="TP4" library="AlmaCONN" deviceset="TESTPAD" device="2MM"/>
+<part name="GND40" library="AlmaSUP" deviceset="GND" device=""/>
+<part name="+3V10" library="AlmaSUP" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
 <description>Connectors</description>
 <plain>
-<text x="132.08" y="137.16" size="1.778" layer="97">STM32L011F4P6</text>
-<text x="114.3" y="83.82" size="1.778" layer="97">mettere standard di nuzzo</text>
-<text x="38.1" y="88.9" size="1.778" layer="97">ESE-22MV21T (altri pulsanti migliori)
-STM32L011F4P6
-ST-Link
-Led blu
-connettore mirrored Standard Di nuzzo (mettere testpad) pin header per connettore
-</text>
-<text x="127" y="66.04" size="1.778" layer="91">Porcoddio son scemo io!!
-Connettore mirrorato</text>
 </plain>
 <instances>
 <instance part="LED1" gate="G$1" x="187.96" y="167.64" smashed="yes">
@@ -4104,12 +4135,6 @@ Connettore mirrorato</text>
 <instance part="GND37" gate="1" x="144.78" y="147.32" smashed="yes">
 <attribute name="VALUE" x="142.24" y="144.78" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V7" gate="G$1" x="121.92" y="88.9" smashed="yes">
-<attribute name="VALUE" x="114.3" y="88.9" size="1.778" layer="96"/>
-</instance>
-<instance part="GND38" gate="1" x="121.92" y="71.12" smashed="yes">
-<attribute name="VALUE" x="119.38" y="68.58" size="1.778" layer="96"/>
-</instance>
 <instance part="3" gate="G$1" x="0" y="0" smashed="yes">
 <attribute name="DRAWING_NAME" x="217.17" y="15.24" size="2.54" layer="94"/>
 <attribute name="LAST_DATE_TIME" x="217.17" y="10.16" size="2.286" layer="94"/>
@@ -4122,10 +4147,6 @@ Connettore mirrorato</text>
 </instance>
 <instance part="GND43" gate="1" x="45.72" y="147.32" smashed="yes">
 <attribute name="VALUE" x="43.18" y="144.78" size="1.778" layer="96"/>
-</instance>
-<instance part="CN1" gate="G$1" x="129.54" y="78.74" smashed="yes" rot="R180">
-<attribute name="NAME" x="132.08" y="88.9" size="1.9304" layer="95" rot="R180"/>
-<attribute name="PARTNO" x="129.54" y="78.74" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="CN2" gate="G$1" x="48.26" y="121.92" smashed="yes">
 <attribute name="NAME" x="40.64" y="129.54" size="1.778" layer="95"/>
@@ -4144,6 +4165,16 @@ Connettore mirrorato</text>
 </instance>
 <instance part="+3V8" gate="G$1" x="48.26" y="165.1" smashed="yes">
 <attribute name="VALUE" x="40.64" y="165.1" size="1.778" layer="96"/>
+</instance>
+<instance part="TP1" gate="G$1" x="139.7" y="88.9" smashed="yes" rot="R90"/>
+<instance part="TP2" gate="G$1" x="139.7" y="86.36" smashed="yes" rot="R90"/>
+<instance part="TP3" gate="G$1" x="139.7" y="83.82" smashed="yes" rot="R90"/>
+<instance part="TP4" gate="G$1" x="139.7" y="81.28" smashed="yes" rot="R90"/>
+<instance part="GND40" gate="1" x="152.4" y="76.2" smashed="yes">
+<attribute name="VALUE" x="149.86" y="73.66" size="1.778" layer="96"/>
+</instance>
+<instance part="+3V10" gate="G$1" x="142.24" y="93.98" smashed="yes">
+<attribute name="VALUE" x="138.938" y="94.488" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -4736,12 +4767,6 @@ Connettore mirrorato</text>
 <wire x1="144.78" y1="152.4" x2="144.78" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND38" gate="1" pin="GND"/>
-<pinref part="CN1" gate="G$1" pin="1"/>
-<wire x1="124.46" y1="76.2" x2="121.92" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="76.2" x2="121.92" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="GND43" gate="1" pin="GND"/>
 <pinref part="BATT1" gate="G$1" pin="GND"/>
 <wire x1="45.72" y1="149.86" x2="45.72" y2="152.4" width="0.1524" layer="91"/>
@@ -4750,6 +4775,12 @@ Connettore mirrorato</text>
 <pinref part="R31" gate="G$1" pin="1"/>
 <pinref part="GND39" gate="1" pin="GND"/>
 <wire x1="60.96" y1="114.3" x2="60.96" y2="111.76" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND40" gate="1" pin="GND"/>
+<wire x1="139.7" y1="83.82" x2="152.4" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="83.82" x2="152.4" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="TP3" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -4789,12 +4820,6 @@ Connettore mirrorato</text>
 <junction x="109.22" y="134.62"/>
 </segment>
 <segment>
-<pinref part="+3V7" gate="G$1" pin="+3V3"/>
-<wire x1="124.46" y1="83.82" x2="121.92" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="83.82" x2="121.92" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="CN1" gate="G$1" pin="4"/>
-</segment>
-<segment>
 <pinref part="+3V9" gate="G$1" pin="+3V3"/>
 <pinref part="CN2" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="129.54" x2="35.56" y2="127" width="0.1524" layer="91"/>
@@ -4804,6 +4829,12 @@ Connettore mirrorato</text>
 <pinref part="+3V8" gate="G$1" pin="+3V3"/>
 <wire x1="48.26" y1="162.56" x2="48.26" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="BATT1" gate="G$1" pin="V_BATT2"/>
+</segment>
+<segment>
+<wire x1="139.7" y1="88.9" x2="142.24" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="88.9" x2="142.24" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="+3V10" gate="G$1" pin="+3V3"/>
+<pinref part="TP1" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="NRST" class="0">
@@ -4824,9 +4855,9 @@ Connettore mirrorato</text>
 <label x="147.32" y="106.68" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="121.92" y1="78.74" x2="124.46" y2="78.74" width="0.1524" layer="91"/>
-<label x="121.92" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="CN1" gate="G$1" pin="2"/>
+<wire x1="142.24" y1="81.28" x2="139.7" y2="81.28" width="0.1524" layer="91"/>
+<label x="142.24" y="81.28" size="1.27" layer="95" xref="yes"/>
+<pinref part="TP4" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="SWDIO" class="0">
@@ -4836,9 +4867,9 @@ Connettore mirrorato</text>
 <label x="147.32" y="109.22" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="121.92" y1="81.28" x2="124.46" y2="81.28" width="0.1524" layer="91"/>
-<label x="121.92" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="CN1" gate="G$1" pin="3"/>
+<wire x1="142.24" y1="86.36" x2="139.7" y2="86.36" width="0.1524" layer="91"/>
+<label x="142.24" y="86.36" size="1.27" layer="95" xref="yes"/>
+<pinref part="TP2" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="ON" class="0">
@@ -4862,10 +4893,4 @@ Connettore mirrorato</text>
 </sheets>
 </schematic>
 </drawing>
-<compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
-</compatibility>
 </eagle>
