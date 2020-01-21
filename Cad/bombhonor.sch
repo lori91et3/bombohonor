@@ -4570,9 +4570,9 @@ per selezionare tutto usare SET SELECTTYPES ALL</description>
 <pinref part="R30" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="147.32" y1="134.62" x2="144.78" y2="134.62" width="0.1524" layer="91"/>
-<label x="147.32" y="134.62" size="1.27" layer="95" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="PA0"/>
+<pinref part="U1" gate="G$1" pin="PA9"/>
+<wire x1="147.32" y1="114.3" x2="144.78" y2="114.3" width="0.1524" layer="91"/>
+<label x="147.32" y="114.3" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -4883,9 +4883,9 @@ per selezionare tutto usare SET SELECTTYPES ALL</description>
 <label x="63.5" y="127" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="101.6" y1="121.92" x2="111.76" y2="121.92" width="0.1524" layer="91"/>
-<label x="101.6" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U1" gate="G$1" pin="PF0/OSC_IN"/>
+<pinref part="U1" gate="G$1" pin="PA0"/>
+<wire x1="147.32" y1="134.62" x2="144.78" y2="134.62" width="0.1524" layer="91"/>
+<label x="147.32" y="134.62" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
