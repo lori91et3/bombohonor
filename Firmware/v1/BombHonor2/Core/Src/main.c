@@ -55,8 +55,10 @@ void led2(GPIO_PinState state);
 void led3(GPIO_PinState state);
 void led4(GPIO_PinState state);
 void led5(GPIO_PinState state);
-void wheel(uint32_t delay);
-void half_wheel(uint32_t delay);
+void wheel_cw(uint32_t delay);
+void half_wheel_cw(uint32_t delay);
+void wheel_ccw(uint32_t delay);
+void half_wheel_ccw(uint32_t delay);
 void onoff(uint32_t delay);
 void delay_onoff(uint32_t delay);
 
@@ -110,11 +112,20 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
   	uint32_t delay1=50, delay2=600;
-  	wheel(delay1);
-  	wheel(delay1);
-  	wheel(delay1);
-  	wheel(delay1);
-  	half_wheel(delay1);
+  	wheel_cw(delay1);
+  	wheel_cw(delay1);
+  	wheel_cw(delay1);
+  	wheel_cw(delay1);
+  	half_wheel_cw(delay1);
+		delay_onoff(delay2);
+		onoff(delay2);
+		onoff(delay2);
+		HAL_Delay(delay2);
+		wheel_ccw(delay1);
+		wheel_ccw(delay1);
+		wheel_ccw(delay1);
+		wheel_ccw(delay1);
+		half_wheel_ccw(delay1);
 		delay_onoff(delay2);
 		onoff(delay2);
 		onoff(delay2);
@@ -234,7 +245,7 @@ void led5(GPIO_PinState state){
 	HAL_GPIO_WritePin(LED5_GPIO_Port,LED5_Pin,state);
 }
 
-void wheel(uint32_t delay){
+void wheel_cw(uint32_t delay){
 	led1(1);
 	HAL_Delay(delay);
 	led2(1);
@@ -257,7 +268,7 @@ void wheel(uint32_t delay){
 	HAL_Delay(delay);
 }
 
-void half_wheel(uint32_t delay){
+void half_wheel_cw(uint32_t delay){
 	led1(1);
 	HAL_Delay(delay);
 	led2(1);
@@ -267,6 +278,42 @@ void half_wheel(uint32_t delay){
 	led4(1);
 	HAL_Delay(delay);
 	led5(1);
+	HAL_Delay(delay);
+}
+
+void wheel_ccw(uint32_t delay){
+	led5(1);
+	HAL_Delay(delay);
+	led4(1);
+	HAL_Delay(delay);
+	led3(1);
+	HAL_Delay(delay);
+	led2(1);
+	HAL_Delay(delay);
+	led1(1);
+	HAL_Delay(delay);
+	led5(0);
+	HAL_Delay(delay);
+	led4(0);
+	HAL_Delay(delay);
+	led3(0);
+	HAL_Delay(delay);
+	led2(0);
+	HAL_Delay(delay);
+	led1(0);
+	HAL_Delay(delay);
+}
+
+void half_wheel_ccw(uint32_t delay){
+	led5(1);
+	HAL_Delay(delay);
+	led4(1);
+	HAL_Delay(delay);
+	led3(1);
+	HAL_Delay(delay);
+	led2(1);
+	HAL_Delay(delay);
+	led1(1);
 	HAL_Delay(delay);
 }
 
