@@ -59,6 +59,8 @@ void wheel(uint32_t delay);
 void half_wheel(uint32_t delay);
 void onoff(uint32_t delay);
 void delay_onoff(uint32_t delay);
+
+void go_to_sleep();
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -90,13 +92,12 @@ int main(void)
   SystemClock_Config();
 
   /* USER CODE BEGIN SysInit */
-
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
-  HAL_PWR_EnableWakeUpPin(PWR_WAKEUP_PIN1);
+  __HAL_RCC_PWR_CLK_ENABLE();
   /* USER CODE END 2 */
  
  
@@ -108,7 +109,6 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-  	HAL_PWR_EnterSTANDBYMode();
   	uint32_t delay1=50, delay2=600;
   	wheel(delay1);
   	wheel(delay1);
@@ -119,6 +119,9 @@ int main(void)
 		onoff(delay2);
 		onoff(delay2);
 		HAL_Delay(delay2);
+
+		go_to_sleep();
+
   }
   /* USER CODE END 3 */
 }
@@ -289,6 +292,16 @@ void delay_onoff(uint32_t delay){
 	led3(0);
 	led4(0);
 	led5(0);
+}
+
+void go_to_sleep(){
+	HAL_PWREx_EnableUltraLowPower();
+	HAL_PWREx_EnableFastWakeUp();
+	__HAL_PWR_CLEAR_FLAG(PWR_FLAG_SB);
+	HAL_PWR_DisableWakeUpPin(PWR_WAKEUP_PIN1);
+	__HAL_PWR_CLEAR_FLAG(PWR_FLAG_WU);
+	HAL_PWR_EnableWakeUpPin(PWR_WAKEUP_PIN1);
+	HAL_PWR_EnterSTANDBYMode();
 }
 
 /* USER CODE END 4 */
