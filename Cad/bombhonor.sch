@@ -210,7 +210,7 @@
 <wire x1="-2.6" y1="-1.3" x2="-2.6" y2="1.3" width="0.1" layer="39"/>
 <text x="-2.2" y="1.1" size="1" layer="25">&gt;NAME</text>
 <text x="-2.2" y="-2" size="1" layer="27">&gt;VALUE</text>
-<hole x="0" y="0" drill="2.5"/>
+<hole x="0" y="0" drill="2.4"/>
 <wire x1="-1.1" y1="0" x2="-0.3" y2="0" width="0.1" layer="51"/>
 <wire x1="-0.3" y1="0" x2="-0.3" y2="0.5" width="0.1" layer="51"/>
 <wire x1="-0.3" y1="0" x2="-0.3" y2="-0.4" width="0.1" layer="51"/>
@@ -3320,66 +3320,68 @@ per selezionare tutto usare SET SELECTTYPES ALL</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="cesso">
+<library name="switch-tact">
+<description>&lt;b&gt;Diptronics THMD &amp; SMD tact switches&lt;/b&gt;
+&lt;p&gt;&lt;ul&gt;
+&lt;li&gt;DTS-3: 3.5x6mm THMD tact switch
+&lt;li&gt;DTS-6, DTS-64: 6x6mm THMD tact switch
+&lt;li&gt;DTSM-3: 3.5x6mm SMD tact switch
+&lt;li&gt;DTSM-6, DTSM-64: 6x6mm SMD tact switch
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Doublecheck before using!&lt;/b&gt;&lt;/p&gt;</description>
 <packages>
-<package name="MAROGNATA">
-<smd name="1" x="-2.54" y="-4" dx="1" dy="2" layer="1"/>
-<smd name="3" x="2.54" y="-4" dx="1" dy="2" layer="1"/>
-<smd name="4" x="2.54" y="4" dx="1" dy="2" layer="1"/>
-<smd name="2" x="-2.54" y="4" dx="1" dy="2" layer="1"/>
-<wire x1="-3.6" y1="3" x2="-0.6" y2="3" width="0.127" layer="21"/>
-<wire x1="-0.6" y1="3" x2="0.6" y2="3" width="0.127" layer="21"/>
-<wire x1="0.6" y1="3" x2="3.6" y2="3" width="0.127" layer="21"/>
-<wire x1="3.6" y1="3" x2="3.6" y2="-3" width="0.127" layer="21"/>
-<wire x1="3.6" y1="-3" x2="0.6" y2="-3" width="0.127" layer="21"/>
-<wire x1="0.6" y1="-3" x2="-0.6" y2="-3" width="0.127" layer="21"/>
-<wire x1="-0.6" y1="-3" x2="-3.6" y2="-3" width="0.127" layer="21"/>
-<wire x1="-3.6" y1="-3" x2="-3.6" y2="3" width="0.127" layer="21"/>
-<wire x1="-0.6" y1="3" x2="0" y2="3.6" width="0.127" layer="21"/>
-<wire x1="0" y1="3.6" x2="0.6" y2="3" width="0.127" layer="21"/>
-<wire x1="-0.6" y1="-3" x2="0" y2="-3.6" width="0.127" layer="21"/>
-<wire x1="0" y1="-3.6" x2="0.6" y2="-3" width="0.127" layer="21"/>
-<wire x1="-2.4" y1="-2.4" x2="-2.4" y2="0" width="0.127" layer="21"/>
-<wire x1="-2.4" y1="0" x2="-2.4" y2="2.4" width="0.127" layer="21"/>
-<wire x1="2.6" y1="2.6" x2="2.6" y2="0" width="0.127" layer="21"/>
-<wire x1="2.6" y1="0" x2="2.6" y2="-2.2" width="0.127" layer="21"/>
-<wire x1="-2.4" y1="0" x2="-0.6" y2="0" width="0.127" layer="21"/>
-<wire x1="-0.6" y1="0" x2="0.2" y2="0.8" width="0.127" layer="21"/>
-<wire x1="0.2" y1="0" x2="2.6" y2="0" width="0.127" layer="21"/>
+<package name="DTSM-3">
+<wire x1="-3" y1="1.75" x2="3" y2="1.75" width="0.2032" layer="51"/>
+<wire x1="3" y1="1.75" x2="3" y2="-1.75" width="0.2032" layer="51"/>
+<wire x1="3" y1="-1.75" x2="-3" y2="-1.75" width="0.2032" layer="51"/>
+<wire x1="-3" y1="-1.75" x2="-3" y2="1.75" width="0.2032" layer="51"/>
+<wire x1="-1.5" y1="0.75" x2="1.5" y2="0.75" width="0.2032" layer="51"/>
+<wire x1="1.5" y1="0.75" x2="1.5" y2="-0.75" width="0.2032" layer="51"/>
+<wire x1="1.5" y1="-0.75" x2="-1.5" y2="-0.75" width="0.2032" layer="51"/>
+<wire x1="-1.5" y1="-0.75" x2="-1.5" y2="0.75" width="0.2032" layer="51"/>
+<wire x1="-3" y1="1.75" x2="-3" y2="1.25" width="0.2032" layer="21"/>
+<wire x1="-3" y1="1.75" x2="3" y2="1.75" width="0.2032" layer="21"/>
+<wire x1="3" y1="1.75" x2="3" y2="1.25" width="0.2032" layer="21"/>
+<wire x1="3" y1="-1.25" x2="3" y2="-1.75" width="0.2032" layer="21"/>
+<wire x1="3" y1="-1.75" x2="-3" y2="-1.75" width="0.2032" layer="21"/>
+<wire x1="-3" y1="-1.75" x2="-3" y2="-1.25" width="0.2032" layer="21"/>
+<wire x1="-1.25" y1="0.75" x2="1.25" y2="0.75" width="0.2032" layer="21"/>
+<wire x1="-1.25" y1="-0.75" x2="1.2" y2="-0.75" width="0.2032" layer="21"/>
+<smd name="1" x="-2.7" y="0" dx="2" dy="1.6" layer="1"/>
+<smd name="2" x="2.7" y="0" dx="2" dy="1.6" layer="1"/>
+<text x="-2.54" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
-<symbol name="SW">
-<pin name="1" x="-10.16" y="5.08" length="short"/>
-<pin name="2" x="-10.16" y="-5.08" length="short"/>
-<pin name="3" x="10.16" y="5.08" length="short" rot="R180"/>
-<pin name="4" x="10.16" y="-5.08" length="short" rot="R180"/>
-<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="0" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="5.08" y1="0" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
-<text x="-7.62" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<symbol name="TS">
+<wire x1="0" y1="-3.175" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="3.175" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-0.635" y2="0" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="1.905" x2="-3.175" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="-1.905" x2="-3.175" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="1.905" x2="-4.445" y2="0" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="0" x2="-4.445" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.905" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-0.635" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="0" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-4.445" y1="0" x2="-3.175" y2="0" width="0.1524" layer="94"/>
+<text x="-6.35" y="-1.905" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="-3.81" y="3.175" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="1" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="2" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TR1-01" prefix="CN">
+<deviceset name="DTSM-3" prefix="S">
 <gates>
-<gate name="G$1" symbol="SW" x="-2.54" y="-5.08"/>
+<gate name="G$1" symbol="TS" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="MAROGNATA">
+<device name="" package="DTSM-3">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3649,9 +3651,6 @@ per selezionare tutto usare SET SELECTTYPES ALL</description>
 <attribute name="PARTNO" value="BK-883-TR"/>
 </part>
 <part name="GND43" library="AlmaSUP" deviceset="GND" device=""/>
-<part name="CN2" library="cesso" deviceset="TR1-01" device="">
-<attribute name="PARTNO" value="TR1-01"/>
-</part>
 <part name="+3V9" library="AlmaSUP" deviceset="+3V3" device=""/>
 <part name="R31" library="AlmaPASS" deviceset="R" device="0603" value="1k">
 <attribute name="PARTNO" value="RMCF0603JT1K00"/>
@@ -3664,6 +3663,7 @@ per selezionare tutto usare SET SELECTTYPES ALL</description>
 <part name="TP4" library="AlmaCONN" deviceset="TESTPAD" device="2MM"/>
 <part name="GND40" library="AlmaSUP" deviceset="GND" device=""/>
 <part name="+3V10" library="AlmaSUP" deviceset="+3V3" device=""/>
+<part name="S1" library="switch-tact" deviceset="DTSM-3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4148,12 +4148,8 @@ per selezionare tutto usare SET SELECTTYPES ALL</description>
 <instance part="GND43" gate="1" x="45.72" y="147.32" smashed="yes">
 <attribute name="VALUE" x="43.18" y="144.78" size="1.778" layer="96"/>
 </instance>
-<instance part="CN2" gate="G$1" x="48.26" y="121.92" smashed="yes">
-<attribute name="NAME" x="40.64" y="129.54" size="1.778" layer="95"/>
-<attribute name="PARTNO" x="48.26" y="121.92" size="1.27" layer="96" display="off"/>
-</instance>
-<instance part="+3V9" gate="G$1" x="35.56" y="132.08" smashed="yes">
-<attribute name="VALUE" x="27.94" y="132.08" size="1.778" layer="96"/>
+<instance part="+3V9" gate="G$1" x="45.72" y="132.08" smashed="yes">
+<attribute name="VALUE" x="42.164" y="133.096" size="1.778" layer="96"/>
 </instance>
 <instance part="R31" gate="G$1" x="60.96" y="119.38" smashed="yes" rot="R270">
 <attribute name="NAME" x="66.04" y="121.92" size="1.778" layer="95" rot="R270"/>
@@ -4175,6 +4171,10 @@ per selezionare tutto usare SET SELECTTYPES ALL</description>
 </instance>
 <instance part="+3V10" gate="G$1" x="142.24" y="93.98" smashed="yes">
 <attribute name="VALUE" x="138.938" y="94.488" size="1.778" layer="96"/>
+</instance>
+<instance part="S1" gate="G$1" x="53.34" y="127" smashed="yes" rot="R270">
+<attribute name="NAME" x="51.435" y="133.35" size="1.778" layer="95"/>
+<attribute name="VALUE" x="56.515" y="130.81" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -4821,9 +4821,9 @@ per selezionare tutto usare SET SELECTTYPES ALL</description>
 </segment>
 <segment>
 <pinref part="+3V9" gate="G$1" pin="+3V3"/>
-<pinref part="CN2" gate="G$1" pin="1"/>
-<wire x1="35.56" y1="129.54" x2="35.56" y2="127" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="127" x2="38.1" y2="127" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="129.54" x2="45.72" y2="127" width="0.1524" layer="91"/>
+<pinref part="S1" gate="G$1" pin="1"/>
+<wire x1="45.72" y1="127" x2="48.26" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="+3V8" gate="G$1" pin="+3V3"/>
@@ -4875,12 +4875,12 @@ per selezionare tutto usare SET SELECTTYPES ALL</description>
 <net name="ON" class="0">
 <segment>
 <pinref part="R31" gate="G$1" pin="2"/>
-<pinref part="CN2" gate="G$1" pin="3"/>
 <wire x1="60.96" y1="124.46" x2="60.96" y2="127" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="127" x2="58.42" y2="127" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="127" x2="60.96" y2="127" width="0.1524" layer="91"/>
 <junction x="60.96" y="127"/>
 <label x="63.5" y="127" size="1.27" layer="95" xref="yes"/>
+<pinref part="S1" gate="G$1" pin="2"/>
+<wire x1="58.42" y1="127" x2="60.96" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="PA0"/>

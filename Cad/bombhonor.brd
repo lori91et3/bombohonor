@@ -3,7 +3,7 @@
 <eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -4706,7 +4706,7 @@
 <wire x1="-2.6" y1="-1.3" x2="-2.6" y2="1.3" width="0.1" layer="39"/>
 <text x="-2.2" y="1.1" size="1" layer="25">&gt;NAME</text>
 <text x="-2.2" y="-2" size="1" layer="27">&gt;VALUE</text>
-<hole x="0" y="0" drill="2.5"/>
+<hole x="0" y="0" drill="2.4"/>
 <wire x1="-1.1" y1="0" x2="-0.3" y2="0" width="0.1" layer="51"/>
 <wire x1="-0.3" y1="0" x2="-0.3" y2="0.5" width="0.1" layer="51"/>
 <wire x1="-0.3" y1="0" x2="-0.3" y2="-0.4" width="0.1" layer="51"/>
@@ -4811,32 +4811,37 @@
 </package>
 </packages>
 </library>
-<library name="cesso">
+<library name="switch-tact">
+<description>&lt;b&gt;Diptronics THMD &amp; SMD tact switches&lt;/b&gt;
+&lt;p&gt;&lt;ul&gt;
+&lt;li&gt;DTS-3: 3.5x6mm THMD tact switch
+&lt;li&gt;DTS-6, DTS-64: 6x6mm THMD tact switch
+&lt;li&gt;DTSM-3: 3.5x6mm SMD tact switch
+&lt;li&gt;DTSM-6, DTSM-64: 6x6mm SMD tact switch
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Doublecheck before using!&lt;/b&gt;&lt;/p&gt;</description>
 <packages>
-<package name="MAROGNATA">
-<smd name="1" x="-2.54" y="-4" dx="1" dy="2" layer="1"/>
-<smd name="3" x="2.54" y="-4" dx="1" dy="2" layer="1"/>
-<smd name="4" x="2.54" y="4" dx="1" dy="2" layer="1"/>
-<smd name="2" x="-2.54" y="4" dx="1" dy="2" layer="1"/>
-<wire x1="-3.6" y1="3" x2="-0.6" y2="3" width="0.127" layer="21"/>
-<wire x1="-0.6" y1="3" x2="0.6" y2="3" width="0.127" layer="21"/>
-<wire x1="0.6" y1="3" x2="3.6" y2="3" width="0.127" layer="21"/>
-<wire x1="3.6" y1="3" x2="3.6" y2="-3" width="0.127" layer="21"/>
-<wire x1="3.6" y1="-3" x2="0.6" y2="-3" width="0.127" layer="21"/>
-<wire x1="0.6" y1="-3" x2="-0.6" y2="-3" width="0.127" layer="21"/>
-<wire x1="-0.6" y1="-3" x2="-3.6" y2="-3" width="0.127" layer="21"/>
-<wire x1="-3.6" y1="-3" x2="-3.6" y2="3" width="0.127" layer="21"/>
-<wire x1="-0.6" y1="3" x2="0" y2="3.6" width="0.127" layer="21"/>
-<wire x1="0" y1="3.6" x2="0.6" y2="3" width="0.127" layer="21"/>
-<wire x1="-0.6" y1="-3" x2="0" y2="-3.6" width="0.127" layer="21"/>
-<wire x1="0" y1="-3.6" x2="0.6" y2="-3" width="0.127" layer="21"/>
-<wire x1="-2.4" y1="-2.4" x2="-2.4" y2="0" width="0.127" layer="21"/>
-<wire x1="-2.4" y1="0" x2="-2.4" y2="2.4" width="0.127" layer="21"/>
-<wire x1="2.6" y1="2.6" x2="2.6" y2="0" width="0.127" layer="21"/>
-<wire x1="2.6" y1="0" x2="2.6" y2="-2.2" width="0.127" layer="21"/>
-<wire x1="-2.4" y1="0" x2="-0.6" y2="0" width="0.127" layer="21"/>
-<wire x1="-0.6" y1="0" x2="0.2" y2="0.8" width="0.127" layer="21"/>
-<wire x1="0.2" y1="0" x2="2.6" y2="0" width="0.127" layer="21"/>
+<package name="DTSM-3">
+<wire x1="-3" y1="1.75" x2="3" y2="1.75" width="0.2032" layer="51"/>
+<wire x1="3" y1="1.75" x2="3" y2="-1.75" width="0.2032" layer="51"/>
+<wire x1="3" y1="-1.75" x2="-3" y2="-1.75" width="0.2032" layer="51"/>
+<wire x1="-3" y1="-1.75" x2="-3" y2="1.75" width="0.2032" layer="51"/>
+<wire x1="-1.5" y1="0.75" x2="1.5" y2="0.75" width="0.2032" layer="51"/>
+<wire x1="1.5" y1="0.75" x2="1.5" y2="-0.75" width="0.2032" layer="51"/>
+<wire x1="1.5" y1="-0.75" x2="-1.5" y2="-0.75" width="0.2032" layer="51"/>
+<wire x1="-1.5" y1="-0.75" x2="-1.5" y2="0.75" width="0.2032" layer="51"/>
+<wire x1="-3" y1="1.75" x2="-3" y2="1.25" width="0.2032" layer="21"/>
+<wire x1="-3" y1="1.75" x2="3" y2="1.75" width="0.2032" layer="21"/>
+<wire x1="3" y1="1.75" x2="3" y2="1.25" width="0.2032" layer="21"/>
+<wire x1="3" y1="-1.25" x2="3" y2="-1.75" width="0.2032" layer="21"/>
+<wire x1="3" y1="-1.75" x2="-3" y2="-1.75" width="0.2032" layer="21"/>
+<wire x1="-3" y1="-1.75" x2="-3" y2="-1.25" width="0.2032" layer="21"/>
+<wire x1="-1.25" y1="0.75" x2="1.25" y2="0.75" width="0.2032" layer="21"/>
+<wire x1="-1.25" y1="-0.75" x2="1.2" y2="-0.75" width="0.2032" layer="21"/>
+<smd name="1" x="-2.7" y="0" dx="2" dy="1.6" layer="1"/>
+<smd name="2" x="2.7" y="0" dx="2" dy="1.6" layer="1"/>
+<text x="-2.54" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
 </package>
 </packages>
 </library>
@@ -5122,12 +5127,12 @@ Ihr Multi-CB Team
 <attribute name="VALUE" x="-6.45" y="-25.6" size="1" layer="27"/>
 </element>
 <element name="LED16" library="AlmaOPTO" package="1206[3216]BOTTOM_ENTRY" value="RED" x="0" y="-28" smashed="yes">
-<attribute name="NAME" x="2.45" y="-26.7" size="1" layer="25"/>
+<attribute name="NAME" x="1.95" y="-26.6" size="1" layer="25"/>
 <attribute name="PARTNO" value="LTST-C230KRKT" x="0" y="-28" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-1.45" y="-29.6" size="1" layer="27"/>
 </element>
 <element name="LED17" library="AlmaOPTO" package="1206[3216]BOTTOM_ENTRY" value="RED" x="5" y="-24" smashed="yes">
-<attribute name="NAME" x="7.85" y="-22.8" size="1" layer="25"/>
+<attribute name="NAME" x="7.35" y="-22.4" size="1" layer="25"/>
 <attribute name="PARTNO" value="LTST-C230KRKT" x="5" y="-24" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="3.55" y="-25.6" size="1" layer="27"/>
 </element>
@@ -5137,17 +5142,17 @@ Ihr Multi-CB Team
 <attribute name="VALUE" x="8.55" y="-21.6" size="1" layer="27"/>
 </element>
 <element name="LED19" library="AlmaOPTO" package="1206[3216]BOTTOM_ENTRY" value="RED" x="15" y="-15" smashed="yes">
-<attribute name="NAME" x="8.15" y="-15.3" size="1" layer="25"/>
+<attribute name="NAME" x="7.75" y="-15.2" size="1" layer="25"/>
 <attribute name="PARTNO" value="LTST-C230KRKT" x="15" y="-15" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="13.55" y="-16.6" size="1" layer="27"/>
 </element>
 <element name="LED20" library="AlmaOPTO" package="1206[3216]BOTTOM_ENTRY" value="RED" x="20" y="-10" smashed="yes">
-<attribute name="NAME" x="21.15" y="-8.4" size="1" layer="25"/>
+<attribute name="NAME" x="16.15" y="-12.5" size="1" layer="25"/>
 <attribute name="PARTNO" value="LTST-C230KRKT" x="20" y="-10" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="18.55" y="-11.6" size="1" layer="27"/>
 </element>
 <element name="LED21" library="AlmaOPTO" package="1206[3216]BOTTOM_ENTRY" value="RED" x="24" y="-5" smashed="yes">
-<attribute name="NAME" x="17.25" y="-5.3" size="1" layer="25"/>
+<attribute name="NAME" x="16.75" y="-5.3" size="1" layer="25"/>
 <attribute name="PARTNO" value="LTST-C230KRKT" x="24" y="-5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="22.55" y="-6.6" size="1" layer="27"/>
 </element>
@@ -5162,17 +5167,17 @@ Ihr Multi-CB Team
 <attribute name="VALUE" x="26.55" y="3.4" size="1" layer="27"/>
 </element>
 <element name="LED24" library="AlmaOPTO" package="1206[3216]BOTTOM_ENTRY" value="RED" x="29" y="10" smashed="yes">
-<attribute name="NAME" x="22.35" y="9.6" size="1" layer="25"/>
+<attribute name="NAME" x="23.55" y="8" size="1" layer="25"/>
 <attribute name="PARTNO" value="LTST-C230KRKT" x="29" y="10" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="27.55" y="8.4" size="1" layer="27"/>
 </element>
 <element name="LED25" library="AlmaOPTO" package="1206[3216]BOTTOM_ENTRY" value="RED" x="28" y="15" smashed="yes">
-<attribute name="NAME" x="21.25" y="13.4" size="1" layer="25"/>
+<attribute name="NAME" x="20.55" y="14.6" size="1" layer="25"/>
 <attribute name="PARTNO" value="LTST-C230KRKT" x="28" y="15" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="26.55" y="13.4" size="1" layer="27"/>
 </element>
 <element name="LED26" library="AlmaOPTO" package="1206[3216]BOTTOM_ENTRY" value="RED" x="26" y="20" smashed="yes">
-<attribute name="NAME" x="21.15" y="18" size="1" layer="25"/>
+<attribute name="NAME" x="20.55" y="17.9" size="1" layer="25"/>
 <attribute name="PARTNO" value="LTST-C230KRKT" x="26" y="20" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="24.55" y="18.4" size="1" layer="27"/>
 </element>
@@ -5247,7 +5252,7 @@ Ihr Multi-CB Team
 <attribute name="VALUE" x="-11.2" y="20" size="1" layer="27"/>
 </element>
 <element name="R4" library="AlmaPASS" package="0603[1608]" value="1k" x="-16.8" y="23.6" smashed="yes">
-<attribute name="NAME" x="-14.8" y="23.1" size="1" layer="25"/>
+<attribute name="NAME" x="-17.5" y="21.8" size="1" layer="25"/>
 <attribute name="PARTNO" value="RMCF0603JT1K00" x="-16.8" y="23.6" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-18.2" y="22" size="1" layer="27"/>
 </element>
@@ -5307,22 +5312,22 @@ Ihr Multi-CB Team
 <attribute name="VALUE" x="-5.9" y="-27.9" size="1" layer="27"/>
 </element>
 <element name="R16" library="AlmaPASS" package="0603[1608]" value="1k" x="0" y="-25.6" smashed="yes">
-<attribute name="NAME" x="1.8" y="-24.5" size="1" layer="25" rot="R90"/>
+<attribute name="NAME" x="2" y="-24.8" size="1" layer="25" rot="R90"/>
 <attribute name="PARTNO" value="RMCF0603JT1K00" x="0" y="-25.6" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-1.4" y="-27.2" size="1" layer="27"/>
 </element>
 <element name="R17" library="AlmaPASS" package="0603[1608]" value="1k" x="5.5" y="-21.7" smashed="yes">
-<attribute name="NAME" x="4.3" y="-20.8" size="1" layer="25"/>
+<attribute name="NAME" x="1.5" y="-22" size="1" layer="25"/>
 <attribute name="PARTNO" value="RMCF0603JT1K00" x="5.5" y="-21.7" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="4.1" y="-23.3" size="1" layer="27"/>
 </element>
 <element name="R18" library="AlmaPASS" package="0603[1608]" value="1k" x="10.8" y="-17.6" smashed="yes">
-<attribute name="NAME" x="6.6" y="-17.8" size="1" layer="25"/>
+<attribute name="NAME" x="6.5" y="-17.7" size="1" layer="25"/>
 <attribute name="PARTNO" value="RMCF0603JT1K00" x="10.8" y="-17.6" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="9.4" y="-19.2" size="1" layer="27"/>
 </element>
 <element name="R19" library="AlmaPASS" package="0603[1608]" value="1k" x="14.5" y="-17.6" smashed="yes">
-<attribute name="NAME" x="9.8" y="-16.8" size="1" layer="25"/>
+<attribute name="NAME" x="9.4" y="-16.8" size="1" layer="25"/>
 <attribute name="PARTNO" value="RMCF0603JT1K00" x="14.5" y="-17.6" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="13.1" y="-19.2" size="1" layer="27"/>
 </element>
@@ -5342,7 +5347,7 @@ Ihr Multi-CB Team
 <attribute name="VALUE" x="26.6" y="3.9" size="1" layer="27" rot="R180"/>
 </element>
 <element name="R23" library="AlmaPASS" package="0603[1608]" value="1k" x="27.2" y="7.3" smashed="yes" rot="R180">
-<attribute name="NAME" x="29.2" y="6.8" size="1" layer="25"/>
+<attribute name="NAME" x="29" y="6.8" size="1" layer="25"/>
 <attribute name="PARTNO" value="RMCF0603JT1K00" x="27.2" y="7.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="28.6" y="8.9" size="1" layer="27" rot="R180"/>
 </element>
@@ -5352,7 +5357,7 @@ Ihr Multi-CB Team
 <attribute name="VALUE" x="29.6" y="13.9" size="1" layer="27" rot="R180"/>
 </element>
 <element name="R25" library="AlmaPASS" package="0603[1608]" value="1k" x="27.2" y="17.3" smashed="yes" rot="R180">
-<attribute name="NAME" x="23" y="16.8" size="1" layer="25"/>
+<attribute name="NAME" x="22.8" y="16.4" size="1" layer="25"/>
 <attribute name="PARTNO" value="RMCF0603JT1K00" x="27.2" y="17.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="28.6" y="18.9" size="1" layer="27" rot="R180"/>
 </element>
@@ -5384,13 +5389,10 @@ Ihr Multi-CB Team
 <element name="BATT1" library="AlmaBATT" package="BK-883-TR" value="BK-883-TR" x="0" y="-11" smashed="yes">
 <attribute name="PARTNO" value="BK-883-TR" x="0" y="-11" size="1.778" layer="27" display="off"/>
 </element>
-<element name="CN2" library="cesso" package="MAROGNATA" value="TR1-01" x="-16" y="17" smashed="yes">
-<attribute name="PARTNO" value="TR1-01" x="-16" y="17" size="1.778" layer="27" display="off"/>
-</element>
-<element name="R31" library="AlmaPASS" package="0603[1608]" value="1k" x="-16" y="12.1" smashed="yes">
-<attribute name="NAME" x="-17" y="10.3" size="1" layer="25"/>
-<attribute name="PARTNO" value="RMCF0603JT1K00" x="-16" y="12.1" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-17.4" y="10.5" size="1" layer="27"/>
+<element name="R31" library="AlmaPASS" package="0603[1608]" value="1k" x="-15.6" y="14.2" smashed="yes">
+<attribute name="NAME" x="-16.6" y="12.4" size="1" layer="25"/>
+<attribute name="PARTNO" value="RMCF0603JT1K00" x="-15.6" y="14.2" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-17" y="12.6" size="1" layer="27"/>
 </element>
 <element name="U$3" library="AlmaPANEL" package="FIDUCIAL_1MM+2MM+CREAM" value="" x="0" y="-16" smashed="yes"/>
 <element name="U$4" library="AlmaPANEL" package="FIDUCIAL_1MM+2MM+CREAM" value="" x="0" y="14" smashed="yes"/>
@@ -5406,6 +5408,10 @@ Ihr Multi-CB Team
 </element>
 <element name="TP4" library="AlmaCONN" package="TP-2MM" value="TESTPAD2MM" x="13.83" y="11.4" smashed="yes" rot="R90">
 <attribute name="DNP" value="T" x="13.83" y="11.4" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="S1" library="switch-tact" package="DTSM-3" value="DTSM-3" x="-15.5" y="17.1" smashed="yes">
+<attribute name="NAME" x="-18.44" y="19.24" size="1" layer="25"/>
+<attribute name="VALUE" x="-18.04" y="13.29" size="1.27" layer="27"/>
 </element>
 </elements>
 <signals>
@@ -5867,8 +5873,8 @@ Ihr Multi-CB Team
 <wire x1="12.6" y1="-17.7857875" x2="12.89289375" y2="-18.49289375" width="0.3" layer="1" curve="45"/>
 <wire x1="12.89289375" y1="-18.49289375" x2="13.08786875" y2="-18.68786875" width="0.3" layer="1"/>
 <wire x1="12.6" y1="-17.0142125" x2="12.6" y2="-17.7857875" width="0.3" layer="1"/>
-<wire x1="-19.9857875" y1="15.5" x2="-18.2" y2="15.5" width="0.3" layer="16"/>
-<wire x1="-18.2" y1="15.5" x2="18.3857875" y2="15.5" width="0.3" layer="16"/>
+<wire x1="-19.9857875" y1="15.5" x2="-17.2" y2="15.5" width="0.3" layer="16"/>
+<wire x1="-17.2" y1="15.5" x2="18.3857875" y2="15.5" width="0.3" layer="16"/>
 <wire x1="23.1" y1="3.1142125" x2="22.80710625" y2="2.40710625" width="0.3" layer="16" curve="-45"/>
 <wire x1="1.79289375" y1="-18.60710625" x2="1.0857875" y2="-18.9" width="0.3" layer="16" curve="-45"/>
 <wire x1="-1.5857875" y1="-18.9" x2="-2.29289375" y2="-18.60710625" width="0.3" layer="16" curve="-45"/>
@@ -5894,13 +5900,8 @@ Ihr Multi-CB Team
 <via x="-22.85" y="1.95" extent="1-16" drill="0.3"/>
 <wire x1="-23.00710625" y1="12.89289375" x2="-23.3" y2="12.1857875" width="0.3" layer="16" curve="45"/>
 <wire x1="-20.69289375" y1="15.20710625" x2="-23.00710625" y2="12.89289375" width="0.3" layer="16"/>
-<wire x1="-15.95" y1="23.6" x2="-15.95" y2="17.3642125" width="0.3" layer="1"/>
 <wire x1="-19.9857875" y1="15.5" x2="-20.69289375" y2="15.20710625" width="0.3" layer="16" curve="45"/>
-<wire x1="-15.95" y1="17.3642125" x2="-16.24289375" y2="16.65710625" width="0.3" layer="1" curve="-45"/>
-<wire x1="-17.10710625" y1="15.79289375" x2="-17.8142125" y2="15.5" width="0.3" layer="1" curve="-45"/>
-<wire x1="-17.8142125" y1="15.5" x2="-18.2" y2="15.5" width="0.3" layer="1"/>
-<via x="-18.2" y="15.5" extent="1-16" drill="0.3"/>
-<wire x1="-16.24289375" y1="16.65710625" x2="-17.10710625" y2="15.79289375" width="0.3" layer="1"/>
+<via x="-17.2" y="15.5" extent="1-16" drill="0.3"/>
 <contactref element="U1" pad="7"/>
 <wire x1="14.2" y1="5.025" x2="15.598221875" y2="5.025" width="0.3" layer="1"/>
 <wire x1="15.598221875" y1="5.025" x2="15.9" y2="4.9" width="0.3" layer="1" curve="-45"/>
@@ -5921,6 +5922,10 @@ Ihr Multi-CB Team
 <wire x1="10.70710625" y1="21.64289375" x2="10.65" y2="21.7" width="0.3" layer="1"/>
 <wire x1="13.5142125" y1="18.6" x2="12.80710625" y2="18.89289375" width="0.3" layer="16" curve="-45"/>
 <wire x1="12.80710625" y1="18.89289375" x2="11" y2="20.7" width="0.3" layer="16"/>
+<wire x1="-17.2" y1="15.5" x2="-16.68786875" y2="15.71213125" width="0.3" layer="1" curve="45"/>
+<wire x1="-16.24289375" y1="16.15710625" x2="-15.95" y2="16.8642125" width="0.3" layer="1" curve="45"/>
+<wire x1="-16.68786875" y1="15.71213125" x2="-16.24289375" y2="16.15710625" width="0.3" layer="1"/>
+<wire x1="-15.95" y1="16.8642125" x2="-15.95" y2="23.6" width="0.3" layer="1"/>
 </signal>
 <signal name="LED5">
 <contactref element="R5" pad="2"/>
@@ -6073,6 +6078,7 @@ Ihr Multi-CB Team
 <via x="1.9" y="22.1" extent="1-16" drill="0.3"/>
 <via x="11" y="-5.1" extent="1-16" drill="0.3"/>
 <contactref element="TP3" pad="TP"/>
+<wire x1="14.2" y1="8.925" x2="17.95" y2="11.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+3V3">
 <contactref element="C1" pad="1"/>
@@ -6082,29 +6088,17 @@ Ihr Multi-CB Team
 <contactref element="C6" pad="1"/>
 <contactref element="U1" pad="16"/>
 <contactref element="U1" pad="5"/>
-<contactref element="CN2" pad="1"/>
 <wire x1="19.8" y1="6.325" x2="21.0607875" y2="6.325" width="0.3" layer="1"/>
 <wire x1="21.0607875" y1="6.325" x2="21.76789375" y2="6.61789375" width="0.3" layer="1" curve="45"/>
 <wire x1="21.76789375" y1="6.61789375" x2="21.8" y2="6.65" width="0.3" layer="1"/>
 <contactref element="BATT1" pad="V+2"/>
-<wire x1="12.33" y1="-10.325" x2="12.4775" y2="-10.1775" width="0.3" layer="1"/>
-<wire x1="12.4775" y1="-10.1775" x2="16.25710625" y2="-6.39789375" width="0.3" layer="1"/>
-<wire x1="16.25710625" y1="-6.39789375" x2="16.55" y2="-5.6907875" width="0.3" layer="1" curve="45"/>
-<wire x1="16.55" y1="-5.6907875" x2="16.55" y2="-1.1" width="0.3" layer="1"/>
-<wire x1="-18.54" y1="13" x2="-18.54" y2="11.9542125" width="0.3" layer="1"/>
-<wire x1="-18.54" y1="11.9542125" x2="-18.24710625" y2="11.24710625" width="0.3" layer="1" curve="45"/>
 <wire x1="-16.29289375" y1="9.29289375" x2="-15.5857875" y2="9" width="0.3" layer="1" curve="45"/>
-<wire x1="-18.24710625" y1="11.24710625" x2="-16.29289375" y2="9.29289375" width="0.3" layer="1"/>
-<wire x1="-15.5857875" y1="9" x2="7.4857875" y2="9" width="0.3" layer="1"/>
+<wire x1="-17.90710625" y1="10.90710625" x2="-16.29289375" y2="9.29289375" width="0.3" layer="1"/>
+<wire x1="-15.5857875" y1="9" x2="8.4857875" y2="9" width="0.3" layer="1"/>
 <wire x1="19.1" y1="6.325" x2="19.8" y2="6.325" width="0.3" layer="1"/>
-<wire x1="16.55" y1="-1.1" x2="16.55" y2="1" width="0.3" layer="1"/>
+<wire x1="16.55" y1="-1.1" x2="16.55" y2="-0.1" width="0.3" layer="1"/>
+<wire x1="16.55" y1="-0.1" x2="16.55" y2="1" width="0.3" layer="1"/>
 <wire x1="16.55" y1="1" x2="16.75" y2="1.2" width="0.3" layer="1"/>
-<wire x1="7.4857875" y1="9" x2="8.19289375" y2="8.70710625" width="0.3" layer="1" curve="-45"/>
-<wire x1="8.90710625" y1="7.99289375" x2="9.2" y2="7.2857875" width="0.3" layer="1" curve="-45"/>
-<wire x1="9.2" y1="-6.4857875" x2="9.49289375" y2="-7.19289375" width="0.3" layer="1" curve="45"/>
-<wire x1="9.49289375" y1="-7.19289375" x2="12.4775" y2="-10.1775" width="0.3" layer="1"/>
-<wire x1="8.19289375" y1="8.70710625" x2="8.90710625" y2="7.99289375" width="0.3" layer="1"/>
-<wire x1="9.2" y1="7.2857875" x2="9.2" y2="-6.4857875" width="0.3" layer="1"/>
 <contactref element="TP1" pad="TP"/>
 <wire x1="2.4" y1="11.4" x2="4.40710625" y2="13.40710625" width="0.3" layer="1"/>
 <wire x1="21.8" y1="11.179290625" x2="21.75" y2="11.3" width="0.3" layer="1" curve="-45"/>
@@ -6121,16 +6115,29 @@ Ihr Multi-CB Team
 <wire x1="14.2" y1="6.325" x2="13.543196875" y2="6.325" width="0.3" layer="1"/>
 <wire x1="13.543196875" y1="6.325" x2="13" y2="6.1" width="0.3" layer="1" curve="45"/>
 <wire x1="13" y1="6.1" x2="12.8" y2="5.61715625" width="0.3" layer="1" curve="45"/>
-<wire x1="12.8" y1="2.6142125" x2="13.09289375" y2="1.90710625" width="0.3" layer="1" curve="45"/>
-<wire x1="13.50710625" y1="1.49289375" x2="14.2142125" y2="1.2" width="0.3" layer="1" curve="45"/>
-<wire x1="12.8" y1="5.61715625" x2="12.8" y2="2.6142125" width="0.3" layer="1"/>
-<wire x1="13.09289375" y1="1.90710625" x2="13.50710625" y2="1.49289375" width="0.3" layer="1"/>
-<wire x1="14.2142125" y1="1.2" x2="16.75" y2="1.2" width="0.3" layer="1"/>
 <wire x1="16.75" y1="1.2" x2="16.75" y2="2.0357875" width="0.3" layer="1"/>
 <wire x1="18.80125625" y1="6.20125625" x2="19.1" y2="6.325" width="0.3" layer="1" curve="-45"/>
 <wire x1="16.75" y1="1.2" x2="16.75" y2="3.7357875" width="0.3" layer="1"/>
 <wire x1="16.75" y1="3.7357875" x2="17.04289375" y2="4.44289375" width="0.3" layer="1" curve="-45"/>
 <wire x1="17.04289375" y1="4.44289375" x2="18.80125625" y2="6.20125625" width="0.3" layer="1"/>
+<wire x1="12.8" y1="5.61715625" x2="12.8" y2="1.1" width="0.3" layer="1"/>
+<wire x1="12.8" y1="1.1" x2="12.8" y2="-2.2142125" width="0.3" layer="1"/>
+<wire x1="12.8" y1="-2.2142125" x2="12.8" y2="-9.855" width="0.3" layer="1"/>
+<wire x1="12.8" y1="-9.855" x2="12.33" y2="-10.325" width="0.3" layer="1"/>
+<wire x1="16.55" y1="-0.1" x2="14.9142125" y2="-0.1" width="0.3" layer="1"/>
+<wire x1="14.9142125" y1="-0.1" x2="14.20710625" y2="-0.39289375" width="0.3" layer="1" curve="45"/>
+<wire x1="13.09289375" y1="-1.50710625" x2="12.8" y2="-2.2142125" width="0.3" layer="1" curve="45"/>
+<wire x1="14.20710625" y1="-0.39289375" x2="13.09289375" y2="-1.50710625" width="0.3" layer="1"/>
+<wire x1="12.8" y1="1.1" x2="12.51715625" y2="1.78284375" width="0.3" layer="1" curve="45"/>
+<wire x1="10.69289375" y1="3.60710625" x2="10.4" y2="4.3142125" width="0.3" layer="1" curve="-45"/>
+<wire x1="10.4" y1="7.0857875" x2="10.10710625" y2="7.79289375" width="0.3" layer="1" curve="45"/>
+<wire x1="9.19289375" y1="8.70710625" x2="8.4857875" y2="9" width="0.3" layer="1" curve="45"/>
+<wire x1="12.51715625" y1="1.78284375" x2="10.69289375" y2="3.60710625" width="0.3" layer="1"/>
+<wire x1="10.4" y1="4.3142125" x2="10.4" y2="7.0857875" width="0.3" layer="1"/>
+<wire x1="10.10710625" y1="7.79289375" x2="9.19289375" y2="8.70710625" width="0.3" layer="1"/>
+<contactref element="S1" pad="1"/>
+<wire x1="-18.2" y1="17.1" x2="-18.2" y2="11.6142125" width="0.3" layer="1"/>
+<wire x1="-18.2" y1="11.6142125" x2="-17.90710625" y2="10.90710625" width="0.3" layer="1" curve="45"/>
 </signal>
 <signal name="NRST">
 <contactref element="U1" pad="4"/>
@@ -6167,15 +6174,6 @@ Ihr Multi-CB Team
 </signal>
 <signal name="ON">
 <contactref element="R31" pad="2"/>
-<contactref element="CN2" pad="3"/>
-<wire x1="-15.15" y1="12.1" x2="-14.54289375" y2="12.70710625" width="0.3" layer="1"/>
-<wire x1="-14.54289375" y1="12.70710625" x2="-13.8357875" y2="13" width="0.3" layer="1" curve="-45"/>
-<wire x1="-13.8357875" y1="13" x2="-13.46" y2="13" width="0.3" layer="1"/>
-<wire x1="-12.19289375" y1="9.79289375" x2="-11.4857875" y2="9.5" width="0.3" layer="1" curve="45"/>
-<wire x1="-12.19289375" y1="9.79289375" x2="-13.20710625" y2="10.80710625" width="0.3" layer="1"/>
-<wire x1="-13.20710625" y1="10.80710625" x2="-13.5" y2="11.5142125" width="0.3" layer="1" curve="-45"/>
-<wire x1="-13.5" y1="12.90343125" x2="-13.46" y2="13" width="0.3" layer="1" curve="-45"/>
-<wire x1="-13.5" y1="11.5142125" x2="-13.5" y2="12.90343125" width="0.3" layer="1"/>
 <contactref element="U1" pad="6"/>
 <wire x1="14.2" y1="5.675" x2="14.6607875" y2="5.675" width="0.3" layer="1"/>
 <wire x1="14.6607875" y1="5.675" x2="15.36789375" y2="5.96789375" width="0.3" layer="1" curve="45"/>
@@ -6184,8 +6182,15 @@ Ihr Multi-CB Team
 <wire x1="14.7857875" y1="9.5" x2="15.49289375" y2="9.20710625" width="0.3" layer="1" curve="-45"/>
 <wire x1="15.49289375" y1="9.20710625" x2="15.6" y2="9.1" width="0.3" layer="1"/>
 <wire x1="15.6" y1="9.1" x2="15.8" y2="8.61715625" width="0.3" layer="1" curve="-45"/>
-<wire x1="-11.4857875" y1="9.5" x2="14.7857875" y2="9.5" width="0.3" layer="1"/>
+<wire x1="-11.1" y1="9.5" x2="14.7857875" y2="9.5" width="0.3" layer="1"/>
 <wire x1="15.8" y1="8.61715625" x2="15.8" y2="6.8142125" width="0.3" layer="1"/>
+<contactref element="S1" pad="2"/>
+<wire x1="-12.8" y1="11.4142125" x2="-12.8" y2="14.2" width="0.3" layer="1"/>
+<wire x1="-12.8" y1="14.2" x2="-12.8" y2="17.1" width="0.3" layer="1"/>
+<wire x1="-12.8" y1="11.4142125" x2="-12.50710625" y2="10.70710625" width="0.3" layer="1" curve="45"/>
+<wire x1="-11.441421875" y1="9.641421875" x2="-11.1" y2="9.5" width="0.3" layer="1" curve="45"/>
+<wire x1="-12.50710625" y1="10.70710625" x2="-11.441421875" y2="9.641421875" width="0.3" layer="1"/>
+<wire x1="-14.75" y1="14.2" x2="-12.8" y2="14.2" width="0.3" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
