@@ -3402,94 +3402,94 @@ per selezionare tutto usare SET SELECTTYPES ALL</description>
 </class>
 </classes>
 <parts>
-<part name="LED1" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="RED">
+<part name="LED1" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
 <attribute name="PARTNO" value="LTST-C230KRKT"/>
 </part>
-<part name="LED2" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="RED">
+<part name="LED2" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
 <attribute name="PARTNO" value="LTST-C230KRKT"/>
 </part>
-<part name="LED3" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="RED">
+<part name="LED3" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
 <attribute name="PARTNO" value="LTST-C230KRKT"/>
 </part>
-<part name="LED4" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="RED">
+<part name="LED4" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
 <attribute name="PARTNO" value="LTST-C230KRKT"/>
 </part>
-<part name="LED5" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="RED">
+<part name="LED5" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
 <attribute name="PARTNO" value="LTST-C230KRKT"/>
 </part>
-<part name="LED6" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="RED">
+<part name="LED6" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
 <attribute name="PARTNO" value="LTST-C230KRKT"/>
 </part>
-<part name="LED7" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="RED">
+<part name="LED7" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
 <attribute name="PARTNO" value="LTST-C230KRKT"/>
 </part>
-<part name="LED8" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="RED">
+<part name="LED8" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
 <attribute name="PARTNO" value="LTST-C230KRKT"/>
 </part>
-<part name="LED9" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="RED">
+<part name="LED9" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
 <attribute name="PARTNO" value="LTST-C230KRKT"/>
 </part>
-<part name="LED10" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="RED">
+<part name="LED10" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
 <attribute name="PARTNO" value="LTST-C230KRKT"/>
 </part>
-<part name="LED11" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="RED">
+<part name="LED11" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
 <attribute name="PARTNO" value="LTST-C230KRKT"/>
 </part>
-<part name="LED12" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="RED">
+<part name="LED12" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
 <attribute name="PARTNO" value="LTST-C230KRKT"/>
 </part>
-<part name="LED13" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="RED">
+<part name="LED13" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
 <attribute name="PARTNO" value="LTST-C230KRKT"/>
 </part>
-<part name="LED14" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="RED">
+<part name="LED14" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
 <attribute name="PARTNO" value="LTST-C230KRKT"/>
 </part>
-<part name="LED15" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="RED">
+<part name="LED15" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
 <attribute name="PARTNO" value="LTST-C230KRKT"/>
 </part>
-<part name="LED16" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="RED">
+<part name="LED16" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
 <attribute name="PARTNO" value="LTST-C230KRKT"/>
 </part>
-<part name="LED17" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="RED">
+<part name="LED17" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
 <attribute name="PARTNO" value="LTST-C230KRKT"/>
 </part>
-<part name="LED18" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="RED">
+<part name="LED18" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
 <attribute name="PARTNO" value="LTST-C230KRKT"/>
 </part>
-<part name="LED19" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="RED">
+<part name="LED19" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
 <attribute name="PARTNO" value="LTST-C230KRKT"/>
 </part>
-<part name="LED20" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="RED">
+<part name="LED20" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
 <attribute name="PARTNO" value="LTST-C230KRKT"/>
 </part>
-<part name="LED21" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="RED">
+<part name="LED21" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
 <attribute name="PARTNO" value="LTST-C230KRKT"/>
 </part>
-<part name="LED22" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="RED">
+<part name="LED22" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
 <attribute name="PARTNO" value="LTST-C230KRKT"/>
 </part>
-<part name="LED23" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="RED">
+<part name="LED23" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
 <attribute name="PARTNO" value="LTST-C230KRKT"/>
 </part>
-<part name="LED24" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="RED">
+<part name="LED24" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
 <attribute name="PARTNO" value="LTST-C230KRKT"/>
 </part>
-<part name="LED25" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="RED">
+<part name="LED25" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
 <attribute name="PARTNO" value="LTST-C230KRKT"/>
 </part>
-<part name="LED26" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="RED">
+<part name="LED26" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
 <attribute name="PARTNO" value="LTST-C230KRKT"/>
 </part>
-<part name="LED27" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="RED">
+<part name="LED27" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
 <attribute name="PARTNO" value="LTST-C230KRKT"/>
 </part>
-<part name="LED28" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="RED">
+<part name="LED28" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
 <attribute name="PARTNO" value="LTST-C230KRKT"/>
 </part>
-<part name="LED29" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="RED">
+<part name="LED29" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
 <attribute name="PARTNO" value="LTST-C230KRKT"/>
 </part>
-<part name="LED30" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="RED">
+<part name="LED30" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
 <attribute name="PARTNO" value="LTST-C230KRKT"/>
 </part>
 <part name="U1" library="AlmaIC" deviceset="STM32F030F4" device="" value="STM32L011F4P6">
@@ -3657,13 +3657,23 @@ per selezionare tutto usare SET SELECTTYPES ALL</description>
 </part>
 <part name="GND39" library="AlmaSUP" deviceset="GND" device=""/>
 <part name="+3V8" library="AlmaSUP" deviceset="+3V3" device=""/>
-<part name="TP1" library="AlmaCONN" deviceset="TESTPAD" device="2MM"/>
-<part name="TP2" library="AlmaCONN" deviceset="TESTPAD" device="2MM"/>
-<part name="TP3" library="AlmaCONN" deviceset="TESTPAD" device="2MM"/>
-<part name="TP4" library="AlmaCONN" deviceset="TESTPAD" device="2MM"/>
+<part name="TP1" library="AlmaCONN" deviceset="TESTPAD" device="2MM">
+<attribute name="PARTNO" value="DNP"/>
+</part>
+<part name="TP2" library="AlmaCONN" deviceset="TESTPAD" device="2MM">
+<attribute name="PARTNO" value="DNP"/>
+</part>
+<part name="TP3" library="AlmaCONN" deviceset="TESTPAD" device="2MM">
+<attribute name="PARTNO" value="DNP"/>
+</part>
+<part name="TP4" library="AlmaCONN" deviceset="TESTPAD" device="2MM">
+<attribute name="PARTNO" value="DNP"/>
+</part>
 <part name="GND40" library="AlmaSUP" deviceset="GND" device=""/>
 <part name="+3V10" library="AlmaSUP" deviceset="+3V3" device=""/>
-<part name="S1" library="switch-tact" deviceset="DTSM-3" device=""/>
+<part name="S1" library="switch-tact" deviceset="DTSM-3" device="">
+<attribute name="PARTNO" value="DTSM-3"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -4162,10 +4172,18 @@ per selezionare tutto usare SET SELECTTYPES ALL</description>
 <instance part="+3V8" gate="G$1" x="48.26" y="165.1" smashed="yes">
 <attribute name="VALUE" x="40.64" y="165.1" size="1.778" layer="96"/>
 </instance>
-<instance part="TP1" gate="G$1" x="139.7" y="88.9" smashed="yes" rot="R90"/>
-<instance part="TP2" gate="G$1" x="139.7" y="86.36" smashed="yes" rot="R90"/>
-<instance part="TP3" gate="G$1" x="139.7" y="83.82" smashed="yes" rot="R90"/>
-<instance part="TP4" gate="G$1" x="139.7" y="81.28" smashed="yes" rot="R90"/>
+<instance part="TP1" gate="G$1" x="139.7" y="88.9" smashed="yes" rot="R90">
+<attribute name="PARTNO" x="139.7" y="88.9" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="TP2" gate="G$1" x="139.7" y="86.36" smashed="yes" rot="R90">
+<attribute name="PARTNO" x="139.7" y="86.36" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="TP3" gate="G$1" x="139.7" y="83.82" smashed="yes" rot="R90">
+<attribute name="PARTNO" x="139.7" y="83.82" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="TP4" gate="G$1" x="139.7" y="81.28" smashed="yes" rot="R90">
+<attribute name="PARTNO" x="139.7" y="81.28" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND40" gate="1" x="152.4" y="76.2" smashed="yes">
 <attribute name="VALUE" x="149.86" y="73.66" size="1.778" layer="96"/>
 </instance>
@@ -4175,6 +4193,7 @@ per selezionare tutto usare SET SELECTTYPES ALL</description>
 <instance part="S1" gate="G$1" x="53.34" y="127" smashed="yes" rot="R270">
 <attribute name="NAME" x="51.435" y="133.35" size="1.778" layer="95"/>
 <attribute name="VALUE" x="56.515" y="130.81" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="53.34" y="127" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
