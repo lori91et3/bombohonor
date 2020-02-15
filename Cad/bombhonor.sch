@@ -3272,9 +3272,9 @@ per selezionare tutto usare SET SELECTTYPES ALL</description>
 <description>&lt;b&gt;Batteries&lt;/b&gt;</description>
 <packages>
 <package name="BK-883-TR">
-<smd name="V+1" x="-12.33" y="0.675" dx="6.07" dy="6.07" layer="1"/>
-<smd name="V-" x="0" y="0.675" dx="6.07" dy="6.07" layer="1"/>
-<smd name="V+2" x="12.33" y="0.675" dx="6.07" dy="6.07" layer="1"/>
+<smd name="V+1" x="-12.33" y="0.675" dx="6.07" dy="6.07" layer="1" thermals="no"/>
+<smd name="V-" x="0" y="0.675" dx="6.07" dy="6.07" layer="1" thermals="no"/>
+<smd name="V+2" x="12.33" y="0.675" dx="6.07" dy="6.07" layer="1" thermals="no"/>
 <wire x1="-10.555" y1="9.905" x2="10.555" y2="9.905" width="0.127" layer="21"/>
 <wire x1="10.555" y1="9.905" x2="10.555" y2="3.215" width="0.127" layer="21"/>
 <wire x1="10.555" y1="3.215" x2="10.555" y2="-1.865" width="0.127" layer="21"/>

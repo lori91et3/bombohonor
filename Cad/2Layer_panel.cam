@@ -108,7 +108,7 @@
                     "filename_format": "gerber/%N.silkscreen_top",
                     "layers": [
                         21,
-                        25
+                        125
                     ],
                     "milling": false,
                     "name": "Silkscreen Top",
@@ -185,7 +185,7 @@
             ]
         }
     ],
-    "timestamp": "2019-12-18T23:14:50",
+    "timestamp": "2020-02-15T22:10:36",
     "type": "EAGLE CAM job",
     "units": "metric",
     "version": "8.6.1"
