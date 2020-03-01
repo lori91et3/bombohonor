@@ -3403,94 +3403,94 @@ per selezionare tutto usare SET SELECTTYPES ALL</description>
 </classes>
 <parts>
 <part name="LED1" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
-<attribute name="PARTNO" value="LTST-C230KRKT"/>
+<attribute name="PARTNO" value="LTST-C230TBKT"/>
 </part>
 <part name="LED2" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
-<attribute name="PARTNO" value="LTST-C230KRKT"/>
+<attribute name="PARTNO" value="LTST-C230TBKT"/>
 </part>
 <part name="LED3" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
-<attribute name="PARTNO" value="LTST-C230KRKT"/>
+<attribute name="PARTNO" value="LTST-C230TBKT"/>
 </part>
 <part name="LED4" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
-<attribute name="PARTNO" value="LTST-C230KRKT"/>
+<attribute name="PARTNO" value="LTST-C230TBKT"/>
 </part>
 <part name="LED5" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
-<attribute name="PARTNO" value="LTST-C230KRKT"/>
+<attribute name="PARTNO" value="LTST-C230TBKT"/>
 </part>
 <part name="LED6" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
-<attribute name="PARTNO" value="LTST-C230KRKT"/>
+<attribute name="PARTNO" value="LTST-C230TBKT"/>
 </part>
 <part name="LED7" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
-<attribute name="PARTNO" value="LTST-C230KRKT"/>
+<attribute name="PARTNO" value="LTST-C230TBKT"/>
 </part>
 <part name="LED8" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
-<attribute name="PARTNO" value="LTST-C230KRKT"/>
+<attribute name="PARTNO" value="LTST-C230TBKT"/>
 </part>
 <part name="LED9" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
-<attribute name="PARTNO" value="LTST-C230KRKT"/>
+<attribute name="PARTNO" value="LTST-C230TBKT"/>
 </part>
 <part name="LED10" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
-<attribute name="PARTNO" value="LTST-C230KRKT"/>
+<attribute name="PARTNO" value="LTST-C230TBKT"/>
 </part>
 <part name="LED11" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
-<attribute name="PARTNO" value="LTST-C230KRKT"/>
+<attribute name="PARTNO" value="LTST-C230TBKT"/>
 </part>
 <part name="LED12" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
-<attribute name="PARTNO" value="LTST-C230KRKT"/>
+<attribute name="PARTNO" value="LTST-C230TBKT"/>
 </part>
 <part name="LED13" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
-<attribute name="PARTNO" value="LTST-C230KRKT"/>
+<attribute name="PARTNO" value="LTST-C230TBKT"/>
 </part>
 <part name="LED14" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
-<attribute name="PARTNO" value="LTST-C230KRKT"/>
+<attribute name="PARTNO" value="LTST-C230TBKT"/>
 </part>
 <part name="LED15" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
-<attribute name="PARTNO" value="LTST-C230KRKT"/>
+<attribute name="PARTNO" value="LTST-C230TBKT"/>
 </part>
 <part name="LED16" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
-<attribute name="PARTNO" value="LTST-C230KRKT"/>
+<attribute name="PARTNO" value="LTST-C230TBKT"/>
 </part>
 <part name="LED17" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
-<attribute name="PARTNO" value="LTST-C230KRKT"/>
+<attribute name="PARTNO" value="LTST-C230TBKT"/>
 </part>
 <part name="LED18" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
-<attribute name="PARTNO" value="LTST-C230KRKT"/>
+<attribute name="PARTNO" value="LTST-C230TBKT"/>
 </part>
 <part name="LED19" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
-<attribute name="PARTNO" value="LTST-C230KRKT"/>
+<attribute name="PARTNO" value="LTST-C230TBKT"/>
 </part>
 <part name="LED20" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
-<attribute name="PARTNO" value="LTST-C230KRKT"/>
+<attribute name="PARTNO" value="LTST-C230TBKT"/>
 </part>
 <part name="LED21" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
-<attribute name="PARTNO" value="LTST-C230KRKT"/>
+<attribute name="PARTNO" value="LTST-C230TBKT"/>
 </part>
 <part name="LED22" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
-<attribute name="PARTNO" value="LTST-C230KRKT"/>
+<attribute name="PARTNO" value="LTST-C230TBKT"/>
 </part>
 <part name="LED23" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
-<attribute name="PARTNO" value="LTST-C230KRKT"/>
+<attribute name="PARTNO" value="LTST-C230TBKT"/>
 </part>
 <part name="LED24" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
-<attribute name="PARTNO" value="LTST-C230KRKT"/>
+<attribute name="PARTNO" value="LTST-C230TBKT"/>
 </part>
 <part name="LED25" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
-<attribute name="PARTNO" value="LTST-C230KRKT"/>
+<attribute name="PARTNO" value="LTST-C230TBKT"/>
 </part>
 <part name="LED26" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
-<attribute name="PARTNO" value="LTST-C230KRKT"/>
+<attribute name="PARTNO" value="LTST-C230TBKT"/>
 </part>
 <part name="LED27" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
-<attribute name="PARTNO" value="LTST-C230KRKT"/>
+<attribute name="PARTNO" value="LTST-C230TBKT"/>
 </part>
 <part name="LED28" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
-<attribute name="PARTNO" value="LTST-C230KRKT"/>
+<attribute name="PARTNO" value="LTST-C230TBKT"/>
 </part>
 <part name="LED29" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
-<attribute name="PARTNO" value="LTST-C230KRKT"/>
+<attribute name="PARTNO" value="LTST-C230TBKT"/>
 </part>
 <part name="LED30" library="AlmaOPTO" deviceset="LED_SMD" device="1206" value="BLUE">
-<attribute name="PARTNO" value="LTST-C230KRKT"/>
+<attribute name="PARTNO" value="LTST-C230TBKT"/>
 </part>
 <part name="U1" library="AlmaIC" deviceset="STM32F030F4" device="" value="STM32L011F4P6">
 <attribute name="PARTNO" value="STM32L011F4P6"/>

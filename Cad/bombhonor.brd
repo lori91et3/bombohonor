@@ -5806,152 +5806,152 @@ Ihr Multi-CB Team
 <element name="2" library="AlmaPANEL" package="MOUSE_BITE_2MM" value="" x="53.96" y="61.879" smashed="yes"/>
 <element name="LED1" library="AlmaOPTO" package="1206[3216]BOTTOM_ENTRY" value="BLUE" x="39" y="50.5" smashed="yes">
 <attribute name="NAME" x="37.85" y="48" size="1" layer="25"/>
-<attribute name="PARTNO" value="LTST-C230KRKT" x="39" y="50.5" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="LTST-C230TBKT" x="39" y="50.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="37.55" y="48.9" size="1" layer="27"/>
 </element>
 <element name="LED2" library="AlmaOPTO" package="1206[3216]BOTTOM_ENTRY" value="BLUE" x="34" y="52.5" smashed="yes">
 <attribute name="NAME" x="28.15" y="51" size="1" layer="25"/>
-<attribute name="PARTNO" value="LTST-C230KRKT" x="34" y="52.5" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="LTST-C230TBKT" x="34" y="52.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="32.55" y="50.9" size="1" layer="27"/>
 </element>
 <element name="LED3" library="AlmaOPTO" package="1206[3216]BOTTOM_ENTRY" value="BLUE" x="30" y="55.5" smashed="yes">
 <attribute name="NAME" x="28.55" y="57.1" size="1" layer="25"/>
-<attribute name="PARTNO" value="LTST-C230KRKT" x="30" y="55.5" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="LTST-C230TBKT" x="30" y="55.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="28.55" y="53.9" size="1" layer="27"/>
 </element>
 <element name="LED4" library="AlmaOPTO" package="1206[3216]BOTTOM_ENTRY" value="BLUE" x="23" y="57.5" smashed="yes">
 <attribute name="NAME" x="21.55" y="59" size="1" layer="25"/>
-<attribute name="PARTNO" value="LTST-C230KRKT" x="23" y="57.5" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="LTST-C230TBKT" x="23" y="57.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="21.55" y="55.9" size="1" layer="27"/>
 </element>
 <element name="LED5" library="AlmaOPTO" package="1206[3216]BOTTOM_ENTRY" value="BLUE" x="17" y="55.5" smashed="yes">
 <attribute name="NAME" x="15.75" y="57" size="1" layer="25"/>
-<attribute name="PARTNO" value="LTST-C230KRKT" x="17" y="55.5" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="LTST-C230TBKT" x="17" y="55.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="15.55" y="53.9" size="1" layer="27"/>
 </element>
 <element name="LED6" library="AlmaOPTO" package="1206[3216]BOTTOM_ENTRY" value="BLUE" x="13" y="51.5" smashed="yes">
 <attribute name="NAME" x="11.65" y="53.1" size="1" layer="25"/>
-<attribute name="PARTNO" value="LTST-C230KRKT" x="13" y="51.5" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="LTST-C230TBKT" x="13" y="51.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="11.55" y="49.9" size="1" layer="27"/>
 </element>
 <element name="LED7" library="AlmaOPTO" package="1206[3216]BOTTOM_ENTRY" value="BLUE" x="11" y="46.5" smashed="yes">
 <attribute name="NAME" x="14.05" y="46.1" size="1" layer="25"/>
-<attribute name="PARTNO" value="LTST-C230KRKT" x="11" y="46.5" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="LTST-C230TBKT" x="11" y="46.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="9.55" y="44.9" size="1" layer="27"/>
 </element>
 <element name="LED8" library="AlmaOPTO" package="1206[3216]BOTTOM_ENTRY" value="BLUE" x="10" y="41.5" smashed="yes">
 <attribute name="NAME" x="12.95" y="41.4" size="1" layer="25"/>
-<attribute name="PARTNO" value="LTST-C230KRKT" x="10" y="41.5" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="LTST-C230TBKT" x="10" y="41.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="8.55" y="39.9" size="1" layer="27"/>
 </element>
 <element name="LED9" library="AlmaOPTO" package="1206[3216]BOTTOM_ENTRY" value="BLUE" x="11" y="36.5" smashed="yes">
 <attribute name="NAME" x="13.85" y="37" size="1" layer="25"/>
-<attribute name="PARTNO" value="LTST-C230KRKT" x="11" y="36.5" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="LTST-C230TBKT" x="11" y="36.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="9.55" y="34.9" size="1" layer="27"/>
 </element>
 <element name="LED10" library="AlmaOPTO" package="1206[3216]BOTTOM_ENTRY" value="BLUE" x="13" y="31.5" smashed="yes">
 <attribute name="NAME" x="15.95" y="31.1" size="1" layer="25"/>
-<attribute name="PARTNO" value="LTST-C230KRKT" x="13" y="31.5" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="LTST-C230TBKT" x="13" y="31.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="11.55" y="29.9" size="1" layer="27"/>
 </element>
 <element name="LED11" library="AlmaOPTO" package="1206[3216]BOTTOM_ENTRY" value="BLUE" x="15" y="26.5" smashed="yes">
 <attribute name="NAME" x="17.95" y="26" size="1" layer="25"/>
-<attribute name="PARTNO" value="LTST-C230KRKT" x="15" y="26.5" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="LTST-C230TBKT" x="15" y="26.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="13.55" y="24.9" size="1" layer="27"/>
 </element>
 <element name="LED12" library="AlmaOPTO" package="1206[3216]BOTTOM_ENTRY" value="BLUE" x="19" y="21.5" smashed="yes">
 <attribute name="NAME" x="23.2" y="18.55" size="1" layer="25" rot="R90"/>
-<attribute name="PARTNO" value="LTST-C230KRKT" x="19" y="21.5" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="LTST-C230TBKT" x="19" y="21.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="17.55" y="19.9" size="1" layer="27"/>
 </element>
 <element name="LED13" library="AlmaOPTO" package="1206[3216]BOTTOM_ENTRY" value="BLUE" x="24" y="16.5" smashed="yes">
 <attribute name="NAME" x="27.15" y="15" size="1" layer="25"/>
-<attribute name="PARTNO" value="LTST-C230KRKT" x="24" y="16.5" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="LTST-C230TBKT" x="24" y="16.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="22.55" y="14.9" size="1" layer="27"/>
 </element>
 <element name="LED14" library="AlmaOPTO" package="1206[3216]BOTTOM_ENTRY" value="BLUE" x="29" y="11.5" smashed="yes">
 <attribute name="NAME" x="29.75" y="13" size="1" layer="25"/>
-<attribute name="PARTNO" value="LTST-C230KRKT" x="29" y="11.5" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="LTST-C230TBKT" x="29" y="11.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="27.55" y="9.9" size="1" layer="27"/>
 </element>
 <element name="LED15" library="AlmaOPTO" package="1206[3216]BOTTOM_ENTRY" value="BLUE" x="34" y="7.5" smashed="yes">
 <attribute name="NAME" x="35.05" y="8.9" size="1" layer="25"/>
-<attribute name="PARTNO" value="LTST-C230KRKT" x="34" y="7.5" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="LTST-C230TBKT" x="34" y="7.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="32.55" y="5.9" size="1" layer="27"/>
 </element>
 <element name="LED16" library="AlmaOPTO" package="1206[3216]BOTTOM_ENTRY" value="BLUE" x="39" y="3.5" smashed="yes">
 <attribute name="NAME" x="40.95" y="4.9" size="1" layer="25"/>
-<attribute name="PARTNO" value="LTST-C230KRKT" x="39" y="3.5" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="LTST-C230TBKT" x="39" y="3.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="37.55" y="1.9" size="1" layer="27"/>
 </element>
 <element name="LED17" library="AlmaOPTO" package="1206[3216]BOTTOM_ENTRY" value="BLUE" x="44" y="7.5" smashed="yes">
 <attribute name="NAME" x="46.35" y="9.1" size="1" layer="25"/>
-<attribute name="PARTNO" value="LTST-C230KRKT" x="44" y="7.5" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="LTST-C230TBKT" x="44" y="7.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="42.55" y="5.9" size="1" layer="27"/>
 </element>
 <element name="LED18" library="AlmaOPTO" package="1206[3216]BOTTOM_ENTRY" value="BLUE" x="49" y="11.5" smashed="yes">
 <attribute name="NAME" x="43.15" y="12.6" size="1" layer="25"/>
-<attribute name="PARTNO" value="LTST-C230KRKT" x="49" y="11.5" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="LTST-C230TBKT" x="49" y="11.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="47.55" y="9.9" size="1" layer="27"/>
 </element>
 <element name="LED19" library="AlmaOPTO" package="1206[3216]BOTTOM_ENTRY" value="BLUE" x="54" y="16.5" smashed="yes">
 <attribute name="NAME" x="46.75" y="16.3" size="1" layer="25"/>
-<attribute name="PARTNO" value="LTST-C230KRKT" x="54" y="16.5" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="LTST-C230TBKT" x="54" y="16.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="52.55" y="14.9" size="1" layer="27"/>
 </element>
 <element name="LED20" library="AlmaOPTO" package="1206[3216]BOTTOM_ENTRY" value="BLUE" x="59" y="21.5" smashed="yes">
 <attribute name="NAME" x="55.15" y="19" size="1" layer="25"/>
-<attribute name="PARTNO" value="LTST-C230KRKT" x="59" y="21.5" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="LTST-C230TBKT" x="59" y="21.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="57.55" y="19.9" size="1" layer="27"/>
 </element>
 <element name="LED21" library="AlmaOPTO" package="1206[3216]BOTTOM_ENTRY" value="BLUE" x="63" y="26.5" smashed="yes">
 <attribute name="NAME" x="55.75" y="26.2" size="1" layer="25"/>
-<attribute name="PARTNO" value="LTST-C230KRKT" x="63" y="26.5" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="LTST-C230TBKT" x="63" y="26.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="61.55" y="24.9" size="1" layer="27"/>
 </element>
 <element name="LED22" library="AlmaOPTO" package="1206[3216]BOTTOM_ENTRY" value="BLUE" x="65" y="31.5" smashed="yes">
 <attribute name="NAME" x="58.05" y="29.7" size="1" layer="25"/>
-<attribute name="PARTNO" value="LTST-C230KRKT" x="65" y="31.5" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="LTST-C230TBKT" x="65" y="31.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="63.55" y="29.9" size="1" layer="27"/>
 </element>
 <element name="LED23" library="AlmaOPTO" package="1206[3216]BOTTOM_ENTRY" value="BLUE" x="67" y="36.5" smashed="yes">
 <attribute name="NAME" x="60.45" y="34.6" size="1" layer="25"/>
-<attribute name="PARTNO" value="LTST-C230KRKT" x="67" y="36.5" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="LTST-C230TBKT" x="67" y="36.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="65.55" y="34.9" size="1" layer="27"/>
 </element>
 <element name="LED24" library="AlmaOPTO" package="1206[3216]BOTTOM_ENTRY" value="BLUE" x="68" y="41.5" smashed="yes">
 <attribute name="NAME" x="62.55" y="39.5" size="1" layer="25"/>
-<attribute name="PARTNO" value="LTST-C230KRKT" x="68" y="41.5" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="LTST-C230TBKT" x="68" y="41.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="66.55" y="39.9" size="1" layer="27"/>
 </element>
 <element name="LED25" library="AlmaOPTO" package="1206[3216]BOTTOM_ENTRY" value="BLUE" x="67" y="46.5" smashed="yes">
 <attribute name="NAME" x="59.55" y="46.1" size="1" layer="25"/>
-<attribute name="PARTNO" value="LTST-C230KRKT" x="67" y="46.5" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="LTST-C230TBKT" x="67" y="46.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="65.55" y="44.9" size="1" layer="27"/>
 </element>
 <element name="LED26" library="AlmaOPTO" package="1206[3216]BOTTOM_ENTRY" value="BLUE" x="65" y="51.5" smashed="yes">
 <attribute name="NAME" x="59.55" y="49.4" size="1" layer="25"/>
-<attribute name="PARTNO" value="LTST-C230KRKT" x="65" y="51.5" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="LTST-C230TBKT" x="65" y="51.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="63.55" y="49.9" size="1" layer="27"/>
 </element>
 <element name="LED27" library="AlmaOPTO" package="1206[3216]BOTTOM_ENTRY" value="BLUE" x="61" y="55.5" smashed="yes">
 <attribute name="NAME" x="59.05" y="56.9" size="1" layer="25"/>
-<attribute name="PARTNO" value="LTST-C230KRKT" x="61" y="55.5" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="LTST-C230TBKT" x="61" y="55.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="59.55" y="53.9" size="1" layer="27"/>
 </element>
 <element name="LED28" library="AlmaOPTO" package="1206[3216]BOTTOM_ENTRY" value="BLUE" x="55" y="57.5" smashed="yes">
 <attribute name="NAME" x="52.95" y="59" size="1" layer="25"/>
-<attribute name="PARTNO" value="LTST-C230KRKT" x="55" y="57.5" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="LTST-C230TBKT" x="55" y="57.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="53.55" y="55.9" size="1" layer="27"/>
 </element>
 <element name="LED29" library="AlmaOPTO" package="1206[3216]BOTTOM_ENTRY" value="BLUE" x="48" y="55.5" smashed="yes">
 <attribute name="NAME" x="46.15" y="57" size="1" layer="25"/>
-<attribute name="PARTNO" value="LTST-C230KRKT" x="48" y="55.5" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="LTST-C230TBKT" x="48" y="55.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="46.55" y="53.9" size="1" layer="27"/>
 </element>
 <element name="LED30" library="AlmaOPTO" package="1206[3216]BOTTOM_ENTRY" value="BLUE" x="44" y="52.5" smashed="yes">
 <attribute name="NAME" x="40.85" y="54" size="1" layer="25"/>
-<attribute name="PARTNO" value="LTST-C230KRKT" x="44" y="52.5" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="LTST-C230TBKT" x="44" y="52.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="42.55" y="50.9" size="1" layer="27"/>
 </element>
 <element name="U1" library="AlmaIC" package="TSSOP20" value="STM32L011F4P6" x="56" y="37.5" smashed="yes" rot="R270">
