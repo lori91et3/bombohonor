@@ -1,0 +1,8 @@
+*.d
+*.o
+*.su
+*.mk
+*.xml
+*.list
+*.mxproject
+Cad/panel2021/gerber/*
